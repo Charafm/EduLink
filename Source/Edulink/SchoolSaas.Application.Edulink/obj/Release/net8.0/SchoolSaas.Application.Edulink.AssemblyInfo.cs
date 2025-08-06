@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolSaas.Application.Edulink")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ffa8c8b7c88d38aaa208c6e563eb08f3d9a8e14")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31a5cf046fe58e0c793ae77cb37c332c381c63c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolSaas.Application.Edulink")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolSaas.Application.Edulink")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
