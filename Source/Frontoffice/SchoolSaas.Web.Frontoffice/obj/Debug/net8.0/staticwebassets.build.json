@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "P6ORdBc5G+SiiaYnDyabEkKK41zPndBRamyyyxMcBdU=",
+  "Source": "SchoolSaas.Web.Frontoffice",
+  "BasePath": "_content/SchoolSaas.Web.Frontoffice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SchoolSaas.Web.Frontoffice\\wwwroot",
+      "Source": "SchoolSaas.Web.Frontoffice",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Frontoffice\\SchoolSaas.Web.Frontoffice\\wwwroot\\",
+      "BasePath": "_content/SchoolSaas.Web.Frontoffice",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Frontoffice\\SchoolSaas.Web.Frontoffice\\wwwroot\\swagger\\v1\\swagger - Frontoffice.json",
+      "SourceId": "SchoolSaas.Web.Frontoffice",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Frontoffice\\SchoolSaas.Web.Frontoffice\\wwwroot\\",
+      "BasePath": "_content/SchoolSaas.Web.Frontoffice",
+      "RelativePath": "swagger/v1/swagger - Frontoffice#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "17msgfy8pf",
+      "Integrity": "o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\v1\\swagger - Frontoffice.json"
+    },
+    {
+      "Identity": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Frontoffice\\SchoolSaas.Web.Frontoffice\\wwwroot\\swagger\\v1\\swagger.json",
+      "SourceId": "SchoolSaas.Web.Frontoffice",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Frontoffice\\SchoolSaas.Web.Frontoffice\\wwwroot\\",
+      "BasePath": "_content/SchoolSaas.Web.Frontoffice",
+      "RelativePath": "swagger/v1/swagger#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "17msgfy8pf",
+      "Integrity": "o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\v1\\swagger.json"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "swagger/v1/swagger - Frontoffice.17msgfy8pf.json",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Frontoffice\\SchoolSaas.Web.Frontoffice\\wwwroot\\swagger\\v1\\swagger - Frontoffice.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:33:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "17msgfy8pf"
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/v1/swagger - Frontoffice.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger - Frontoffice.json",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Frontoffice\\SchoolSaas.Web.Frontoffice\\wwwroot\\swagger\\v1\\swagger - Frontoffice.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:33:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger.17msgfy8pf.json",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Frontoffice\\SchoolSaas.Web.Frontoffice\\wwwroot\\swagger\\v1\\swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:33:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "17msgfy8pf"
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/v1/swagger.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger.json",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Frontoffice\\SchoolSaas.Web.Frontoffice\\wwwroot\\swagger\\v1\\swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:33:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU="
+        }
+      ]
+    }
+  ]
+}

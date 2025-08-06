@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Edulink\\SchoolSaas.Web.Edulink\\wwwroot\\swagger\\v1\\swagger.json",
+      "PackagePath": "staticwebassets\\swagger\\v1\\swagger.json"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.SchoolSaas.Web.Edulink.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.SchoolSaas.Web.Edulink.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.SchoolSaas.Web.Edulink.props",
+      "PackagePath": "build\\SchoolSaas.Web.Edulink.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SchoolSaas.Web.Edulink.props",
+      "PackagePath": "buildMultiTargeting\\SchoolSaas.Web.Edulink.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.SchoolSaas.Web.Edulink.props",
+      "PackagePath": "buildTransitive\\SchoolSaas.Web.Edulink.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

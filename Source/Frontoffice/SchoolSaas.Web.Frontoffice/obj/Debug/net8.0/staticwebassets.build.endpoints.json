@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "swagger/v1/swagger - Frontoffice.17msgfy8pf.json",
+      "AssetFile": "swagger/v1/swagger - Frontoffice.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:33:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "17msgfy8pf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU="
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/v1/swagger - Frontoffice.json"
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger - Frontoffice.json",
+      "AssetFile": "swagger/v1/swagger - Frontoffice.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:33:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger.17msgfy8pf.json",
+      "AssetFile": "swagger/v1/swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:33:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "17msgfy8pf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU="
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger.json",
+      "AssetFile": "swagger/v1/swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:33:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o9Talx6AmK3V0RrTFgfqfVE+vJkRtqD/N+JkzOIBAfU="
+        }
+      ]
+    }
+  ]
+}

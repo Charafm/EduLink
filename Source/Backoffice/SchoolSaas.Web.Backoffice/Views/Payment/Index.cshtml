@@ -1,0 +1,36 @@
+﻿@model PaymentViewModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Payment";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ACG.MAEC.EConsulatMA.Web.FrontofficeService</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ACG.MAEC.EConsulatMA.Web.FrontofficeService.styles.css" asp-append-version="true" />
+    <style type="text/css">
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        iframe {
+            display: block; /* iframes are inline by default */
+            height: 100vh; /* Set height to 100% of the viewport height */
+            width: 100vw; /* Set width to 100% of the viewport width */
+            border: none; /* Remove default border */
+            background: lightyellow; /* Just for styling */
+        }
+    </style>
+</head>
+<body>
+   <iframe name="paymentFrame" src="/Payment/Form/@Model.Id" />
+</body>
+</html>
+

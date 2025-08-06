@@ -1,0 +1,2 @@
+wwwroot\swagger\v1\swagger - Back.json
+wwwroot\swagger\v1\swagger.json

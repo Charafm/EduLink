@@ -1,0 +1,43 @@
+﻿<#@ template debug="true" hostspecific="true" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="$(TargetPath)" #>
+<#@ assembly name="System.Windows.Forms" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Resources" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+<# var ResourceName = "Messages"; #>
+namespace ACG.Quotelo.Core.Domain.Common.Localization
+{
+<# 
+    var path = Path.GetDirectoryName(Host.TemplateFile);
+    var fileNames = Directory.EnumerateFiles(path, $"*.resx", SearchOption.TopDirectoryOnly).ToList();
+    var groups = fileNames.GroupBy(x => Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(x))).ToDictionary(gdc => gdc.Key, gdc => gdc.ToList());
+
+    foreach(var group in groups){
+    #>
+        public class <#=group.Key#>
+        {
+    <#
+        var localizationKeys = new HashSet<String>();
+        foreach ( var name in group.Value ) {
+            var localeFile = Host.ResolvePath(name);
+            ResXResourceSet jpResxSet = new ResXResourceSet(localeFile);
+            foreach (DictionaryEntry item in jpResxSet) { 
+                localizationKeys.Add(item.Key.ToString());
+            }
+        }
+        foreach(var key in localizationKeys.OrderBy(x => x)){
+    #>
+            public const string <#=key#> = nameof(<#=key#>);
+    <#  } #>
+    }
+    <#  } #>
+}

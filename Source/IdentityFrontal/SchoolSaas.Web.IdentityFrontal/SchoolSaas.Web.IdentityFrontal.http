@@ -1,0 +1,6 @@
+@SchoolSaas.Web.IdentityFrontal_HostAddress = http://localhost:5177
+
+GET {{SchoolSaas.Web.IdentityFrontal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

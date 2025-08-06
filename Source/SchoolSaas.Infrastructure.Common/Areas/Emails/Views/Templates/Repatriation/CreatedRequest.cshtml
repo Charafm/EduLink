@@ -1,0 +1,33 @@
+﻿@using SchoolSaas.Application.Common.Models
+@model TemplateViewModel<CreateRepatriationDto>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <table style="width: 100%; height: auto; border: 0px; margin: 0px; padding: 0px; background-color: #FAFAFA; color: #000000;">
+        <tr>
+            <td style="padding: 15px; line-height: 20px; text-align: justify; color: #000000;">
+                Bonjour,
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding: 15px; line-height: 20px; text-align: justify; color: #000000;">
+             Une nouvelle demande a ete cree veullier la consulter dans le lien suivant
+                <br />
+                <a href="@Model.Data.Link"></a>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 15px; line-height: 20px; text-align: justify; color: #000000;">
+                Cordialement.
+                <br />
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>

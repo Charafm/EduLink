@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "Hash": "V+gbXccLej1mZ3HUdiQwEcYCLICDoCiLbhcYz0TPGTc=",
+  "Source": "SchoolSaas.Web.Backoffice",
+  "BasePath": "_content/SchoolSaas.Web.Backoffice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SchoolSaas.Web.Backoffice\\wwwroot",
+      "Source": "SchoolSaas.Web.Backoffice",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\wwwroot\\",
+      "BasePath": "_content/SchoolSaas.Web.Backoffice",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolSaas.Web.Backoffice.styles.css",
+      "SourceId": "SchoolSaas.Web.Backoffice",
+      "SourceType": "Computed",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/SchoolSaas.Web.Backoffice",
+      "RelativePath": "SchoolSaas.Web.Backoffice#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "nw1wq2s8i6",
+      "Integrity": "Wcx3tBANYzqpVOiJR7cit6786wKlWYp4KuhzAfdRqJg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolSaas.Web.Backoffice.styles.css"
+    },
+    {
+      "Identity": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolSaas.Web.Backoffice.bundle.scp.css",
+      "SourceId": "SchoolSaas.Web.Backoffice",
+      "SourceType": "Computed",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/SchoolSaas.Web.Backoffice",
+      "RelativePath": "SchoolSaas.Web.Backoffice#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "nw1wq2s8i6",
+      "Integrity": "Wcx3tBANYzqpVOiJR7cit6786wKlWYp4KuhzAfdRqJg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolSaas.Web.Backoffice.bundle.scp.css"
+    },
+    {
+      "Identity": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\wwwroot\\swagger\\v1\\swagger - Back.json",
+      "SourceId": "SchoolSaas.Web.Backoffice",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\wwwroot\\",
+      "BasePath": "_content/SchoolSaas.Web.Backoffice",
+      "RelativePath": "swagger/v1/swagger - Back#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "66q06246mr",
+      "Integrity": "flJjlBsylUMmTiRoa8F8FINVWL71h5ttgJjLxvMwnv0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\v1\\swagger - Back.json"
+    },
+    {
+      "Identity": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\wwwroot\\swagger\\v1\\swagger.json",
+      "SourceId": "SchoolSaas.Web.Backoffice",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\wwwroot\\",
+      "BasePath": "_content/SchoolSaas.Web.Backoffice",
+      "RelativePath": "swagger/v1/swagger#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vt2lgqjgsn",
+      "Integrity": "k+mne1AiEvA5P+699BcgSyW0DeTWq7Z12YOtQfcJyPM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\v1\\swagger.json"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "SchoolSaas.Web.Backoffice.bundle.scp.css",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolSaas.Web.Backoffice.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wcx3tBANYzqpVOiJR7cit6786wKlWYp4KuhzAfdRqJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 00:59:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wcx3tBANYzqpVOiJR7cit6786wKlWYp4KuhzAfdRqJg="
+        }
+      ]
+    },
+    {
+      "Route": "SchoolSaas.Web.Backoffice.nw1wq2s8i6.bundle.scp.css",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolSaas.Web.Backoffice.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wcx3tBANYzqpVOiJR7cit6786wKlWYp4KuhzAfdRqJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 00:59:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nw1wq2s8i6"
+        },
+        {
+          "Name": "label",
+          "Value": "SchoolSaas.Web.Backoffice.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wcx3tBANYzqpVOiJR7cit6786wKlWYp4KuhzAfdRqJg="
+        }
+      ]
+    },
+    {
+      "Route": "SchoolSaas.Web.Backoffice.nw1wq2s8i6.styles.css",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolSaas.Web.Backoffice.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wcx3tBANYzqpVOiJR7cit6786wKlWYp4KuhzAfdRqJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 00:59:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nw1wq2s8i6"
+        },
+        {
+          "Name": "label",
+          "Value": "SchoolSaas.Web.Backoffice.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wcx3tBANYzqpVOiJR7cit6786wKlWYp4KuhzAfdRqJg="
+        }
+      ]
+    },
+    {
+      "Route": "SchoolSaas.Web.Backoffice.styles.css",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolSaas.Web.Backoffice.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wcx3tBANYzqpVOiJR7cit6786wKlWYp4KuhzAfdRqJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 00:59:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wcx3tBANYzqpVOiJR7cit6786wKlWYp4KuhzAfdRqJg="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger - Back.66q06246mr.json",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\wwwroot\\swagger\\v1\\swagger - Back.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "201064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"flJjlBsylUMmTiRoa8F8FINVWL71h5ttgJjLxvMwnv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:34:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "66q06246mr"
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/v1/swagger - Back.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-flJjlBsylUMmTiRoa8F8FINVWL71h5ttgJjLxvMwnv0="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger - Back.json",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\wwwroot\\swagger\\v1\\swagger - Back.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "201064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"flJjlBsylUMmTiRoa8F8FINVWL71h5ttgJjLxvMwnv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:34:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-flJjlBsylUMmTiRoa8F8FINVWL71h5ttgJjLxvMwnv0="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger.json",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\wwwroot\\swagger\\v1\\swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "220818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k+mne1AiEvA5P+699BcgSyW0DeTWq7Z12YOtQfcJyPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 05:41:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k+mne1AiEvA5P+699BcgSyW0DeTWq7Z12YOtQfcJyPM="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger.vt2lgqjgsn.json",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice\\wwwroot\\swagger\\v1\\swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "220818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k+mne1AiEvA5P+699BcgSyW0DeTWq7Z12YOtQfcJyPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 05:41:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vt2lgqjgsn"
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/v1/swagger.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k+mne1AiEvA5P+699BcgSyW0DeTWq7Z12YOtQfcJyPM="
+        }
+      ]
+    }
+  ]
+}

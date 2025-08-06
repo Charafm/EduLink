@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<OpenApiReference Include="..\..\Edulink\SchoolSaas.Web.Edulink\wwwroot\swagger\v1\swagger.json" CodeGenerator="NSwagCSharp" Namespace="SchoolSaas.Infrastructure.Backoffice.OpenAPIs.EdulinkService" ClassName="{controller}Client">
+			<SourceUri>https://edulink-buhzcxged8d0gufn.francecentral-01.azurewebsites.net/swagger/index.html</SourceUri>
+			<!--<SourceUri>http://localhost:7066/swagger/v1/swagger.json</SourceUri>-->
+			<NSwagGenerateExceptionClasses>true</NSwagGenerateExceptionClasses>
+		</OpenApiReference>
+	</ItemGroup>
+
+
+	<ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.24.0" />
+    <PackageReference Include="Bogus" Version="35.6.2" />
+    <PackageReference Include="MailKit" Version="4.9.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NSwag.ApiDescription.Client" Version="14.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NSwag.MSBuild" Version="14.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Serilog" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SchoolSaas.Infrastructure.Common\SchoolSaas.Infrastructure.Common.csproj" />
+    <ProjectReference Include="..\SchoolSaas.Domain.Backoffice\SchoolSaas.Domain.Backoffice.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+</Project>

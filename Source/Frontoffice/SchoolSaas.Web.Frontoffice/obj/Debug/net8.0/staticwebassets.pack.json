@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Frontoffice\\SchoolSaas.Web.Frontoffice\\wwwroot\\swagger\\v1\\swagger - Frontoffice.json",
+      "PackagePath": "staticwebassets\\swagger\\v1\\swagger - Frontoffice.json"
+    },
+    {
+      "Id": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Frontoffice\\SchoolSaas.Web.Frontoffice\\wwwroot\\swagger\\v1\\swagger.json",
+      "PackagePath": "staticwebassets\\swagger\\v1\\swagger.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SchoolSaas.Web.Frontoffice.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SchoolSaas.Web.Frontoffice.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SchoolSaas.Web.Frontoffice.props",
+      "PackagePath": "build\\SchoolSaas.Web.Frontoffice.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SchoolSaas.Web.Frontoffice.props",
+      "PackagePath": "buildMultiTargeting\\SchoolSaas.Web.Frontoffice.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SchoolSaas.Web.Frontoffice.props",
+      "PackagePath": "buildTransitive\\SchoolSaas.Web.Frontoffice.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

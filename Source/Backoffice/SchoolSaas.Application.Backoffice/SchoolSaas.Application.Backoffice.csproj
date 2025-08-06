@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Communications\**" />
+    <Compile Remove="Notifications\**" />
+    <EmbeddedResource Remove="Communications\**" />
+    <EmbeddedResource Remove="Notifications\**" />
+    <None Remove="Communications\**" />
+    <None Remove="Notifications\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Payments\Queries\" />
+    <Folder Include="Students\Queries\GetStudentDashboard\" />
+    <Folder Include="Transfer\Commands\NewFolder\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SchoolSaas.Application.Common\SchoolSaas.Application.Common.csproj" />
+    <ProjectReference Include="..\..\SchoolSaas.Web.Common\SchoolSaas.Web.Common.csproj" />
+    <ProjectReference Include="..\SchoolSaas.Infrastructure.Backoffice\SchoolSaas.Infrastructure.Backoffice.csproj" />
+  </ItemGroup>
+
+</Project>

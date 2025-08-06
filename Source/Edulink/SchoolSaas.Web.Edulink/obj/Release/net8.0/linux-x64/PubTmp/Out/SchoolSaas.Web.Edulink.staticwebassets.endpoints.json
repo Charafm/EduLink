@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Publish",
+  "Endpoints": [
+    {
+      "Route": "swagger/v1/swagger.deoy9xm6od.json",
+      "AssetFile": "swagger/v1/swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+6LkYHrF18HnOXt/h98lhEmS7LsT3hptxuww03gVg/g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 21:59:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "deoy9xm6od"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+6LkYHrF18HnOXt/h98lhEmS7LsT3hptxuww03gVg/g="
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger.json",
+      "AssetFile": "swagger/v1/swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+6LkYHrF18HnOXt/h98lhEmS7LsT3hptxuww03gVg/g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 21:59:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+6LkYHrF18HnOXt/h98lhEmS7LsT3hptxuww03gVg/g="
+        }
+      ]
+    }
+  ]
+}

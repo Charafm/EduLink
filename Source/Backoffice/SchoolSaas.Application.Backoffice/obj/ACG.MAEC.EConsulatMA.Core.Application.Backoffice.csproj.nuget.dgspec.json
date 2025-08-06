@@ -1,0 +1,396 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Application.Backoffice\\ACG.MAEC.EConsulatMA.Core.Application.Backoffice.csproj": {}
+  },
+  "projects": {
+    "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Application.Backoffice\\ACG.MAEC.EConsulatMA.Core.Application.Backoffice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Application.Backoffice\\ACG.MAEC.EConsulatMA.Core.Application.Backoffice.csproj",
+        "projectName": "ACG.MAEC.EConsulatMA.Core.Application.Backoffice",
+        "projectPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Application.Backoffice\\ACG.MAEC.EConsulatMA.Core.Application.Backoffice.csproj",
+        "packagesPath": "C:\\Users\\chara\\.nuget\\packages\\",
+        "outputPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Application.Backoffice\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Application.Common\\ACG.MAEC.EConsulatMA.Core.Application.Common.csproj": {
+                "projectPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Application.Common\\ACG.MAEC.EConsulatMA.Core.Application.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Application.Common\\ACG.MAEC.EConsulatMA.Core.Application.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Application.Common\\ACG.MAEC.EConsulatMA.Core.Application.Common.csproj",
+        "projectName": "ACG.MAEC.EConsulatMA.Core.Application.Common",
+        "projectPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Application.Common\\ACG.MAEC.EConsulatMA.Core.Application.Common.csproj",
+        "packagesPath": "C:\\Users\\chara\\.nuget\\packages\\",
+        "outputPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Application.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Backoffice\\ACG.MAEC.EConsulatMA.Core.Domain.Backoffice.csproj": {
+                "projectPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Backoffice\\ACG.MAEC.EConsulatMA.Core.Domain.Backoffice.csproj"
+              },
+              "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice.csproj": {
+                "projectPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR.Behaviors.Authorization": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Backoffice\\ACG.MAEC.EConsulatMA.Core.Domain.Backoffice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Backoffice\\ACG.MAEC.EConsulatMA.Core.Domain.Backoffice.csproj",
+        "projectName": "ACG.MAEC.EConsulatMA.Core.Domain.Backoffice",
+        "projectPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Backoffice\\ACG.MAEC.EConsulatMA.Core.Domain.Backoffice.csproj",
+        "packagesPath": "C:\\Users\\chara\\.nuget\\packages\\",
+        "outputPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Backoffice\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Common\\ACG.MAEC.EConsulatMA.Core.Domain.Common.csproj": {
+                "projectPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Common\\ACG.MAEC.EConsulatMA.Core.Domain.Common.csproj"
+              },
+              "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice.csproj": {
+                "projectPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Common\\ACG.MAEC.EConsulatMA.Core.Domain.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Common\\ACG.MAEC.EConsulatMA.Core.Domain.Common.csproj",
+        "projectName": "ACG.MAEC.EConsulatMA.Core.Domain.Common",
+        "projectPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Common\\ACG.MAEC.EConsulatMA.Core.Domain.Common.csproj",
+        "packagesPath": "C:\\Users\\chara\\.nuget\\packages\\",
+        "outputPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Security.Cryptography.Cng": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice.csproj",
+        "projectName": "ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice",
+        "projectPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice.csproj",
+        "packagesPath": "C:\\Users\\chara\\.nuget\\packages\\",
+        "outputPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Frontoffice\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Common\\ACG.MAEC.EConsulatMA.Core.Domain.Common.csproj": {
+                "projectPath": "G:\\repos\\ACG.MAEC.EConsulatMA\\src\\ACG.MAEC.EConsulatMA.Core.Domain.Common\\ACG.MAEC.EConsulatMA.Core.Domain.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

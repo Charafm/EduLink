@@ -1,0 +1,57 @@
+[
+  {
+    "Name": "BackOffice/Identity",
+    "Projects": [
+      {
+        "Path": "Source\\Backoffice\\SchoolSaas.Web.Backoffice\\SchoolSaas.Web.Backoffice.csproj",
+        "Action": "Start",
+        "DebugTarget": "BackOffice"
+      },
+      {
+        "Path": "Source\\Identity\\SchoolSaas.Web.Identity\\SchoolSaas.Web.Identity.csproj",
+        "Action": "Start",
+        "DebugTarget": "Identity"
+      }
+    ]
+  },
+  {
+    "Name": "IdentityFrontal/Identity",
+    "Projects": [
+      {
+        "Path": "Source\\Identity\\SchoolSaas.Web.Identity\\SchoolSaas.Web.Identity.csproj",
+        "Action": "Start",
+        "DebugTarget": "Identity"
+      }
+    ]
+  },
+  {
+    "Name": "IdentityFrontal/BackOffice",
+    "Projects": [
+      {
+        "Path": "Source\\Identity\\SchoolSaas.Web.Identity\\SchoolSaas.Web.Identity.csproj",
+        "Action": "Start",
+        "DebugTarget": "Identity"
+      },
+      {
+        "Path": "Source\\Backoffice\\SchoolSaas.Web.Backoffice\\SchoolSaas.Web.Backoffice.csproj",
+        "Action": "Start",
+        "DebugTarget": "BackOffice"
+      }
+    ]
+  },
+  {
+    "Name": "EDULINK/ IDENTITY",
+    "Projects": [
+      {
+        "Path": "Source\\Identity\\SchoolSaas.Web.Identity\\SchoolSaas.Web.Identity.csproj",
+        "Action": "Start",
+        "DebugTarget": "Identity"
+      },
+      {
+        "Path": "Source\\Edulink\\SchoolSaas.Web.Edulink\\SchoolSaas.Web.Edulink.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\IdentityFrontal\\SchoolSaas.Web.IdentityFrontal\\wwwroot\\swagger\\v1\\swagger.json",
+      "PackagePath": "staticwebassets\\swagger\\v1\\swagger.json"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.SchoolSaas.Web.IdentityFrontal.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.SchoolSaas.Web.IdentityFrontal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.SchoolSaas.Web.IdentityFrontal.props",
+      "PackagePath": "build\\SchoolSaas.Web.IdentityFrontal.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SchoolSaas.Web.IdentityFrontal.props",
+      "PackagePath": "buildMultiTargeting\\SchoolSaas.Web.IdentityFrontal.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.SchoolSaas.Web.IdentityFrontal.props",
+      "PackagePath": "buildTransitive\\SchoolSaas.Web.IdentityFrontal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

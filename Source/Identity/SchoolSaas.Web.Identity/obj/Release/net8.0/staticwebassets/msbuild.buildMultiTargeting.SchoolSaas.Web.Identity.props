@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SchoolSaas.Web.Identity.props" />
+</Project>

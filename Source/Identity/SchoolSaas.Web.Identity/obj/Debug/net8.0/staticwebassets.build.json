@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "rpO/wfk8EZy5fJ2gYWopKaNtz+ihJ1wiG4vQM5ZhlSU=",
+  "Source": "SchoolSaas.Web.Identity",
+  "BasePath": "_content/SchoolSaas.Web.Identity",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SchoolSaas.Web.Identity\\wwwroot",
+      "Source": "SchoolSaas.Web.Identity",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\wwwroot\\",
+      "BasePath": "_content/SchoolSaas.Web.Identity",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolSaas.Web.Identity.styles.css",
+      "SourceId": "SchoolSaas.Web.Identity",
+      "SourceType": "Computed",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/SchoolSaas.Web.Identity",
+      "RelativePath": "SchoolSaas.Web.Identity#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "peczurrben",
+      "Integrity": "bzxpNnimLurKmwSCjPqX03kCZEQhy7Yxad3W66Drj64=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolSaas.Web.Identity.styles.css"
+    },
+    {
+      "Identity": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolSaas.Web.Identity.bundle.scp.css",
+      "SourceId": "SchoolSaas.Web.Identity",
+      "SourceType": "Computed",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/SchoolSaas.Web.Identity",
+      "RelativePath": "SchoolSaas.Web.Identity#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "peczurrben",
+      "Integrity": "bzxpNnimLurKmwSCjPqX03kCZEQhy7Yxad3W66Drj64=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolSaas.Web.Identity.bundle.scp.css"
+    },
+    {
+      "Identity": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\wwwroot\\swagger\\v1\\swagger.json",
+      "SourceId": "SchoolSaas.Web.Identity",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\wwwroot\\",
+      "BasePath": "_content/SchoolSaas.Web.Identity",
+      "RelativePath": "swagger/v1/swagger#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lwprwlco9s",
+      "Integrity": "G/BUAa34+HL5nFsIGmsKDvCgbqSgSlXxxw38uLGJIpw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\v1\\swagger.json"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "SchoolSaas.Web.Identity.bundle.scp.css",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolSaas.Web.Identity.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bzxpNnimLurKmwSCjPqX03kCZEQhy7Yxad3W66Drj64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 00:02:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bzxpNnimLurKmwSCjPqX03kCZEQhy7Yxad3W66Drj64="
+        }
+      ]
+    },
+    {
+      "Route": "SchoolSaas.Web.Identity.peczurrben.bundle.scp.css",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolSaas.Web.Identity.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bzxpNnimLurKmwSCjPqX03kCZEQhy7Yxad3W66Drj64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 00:02:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "peczurrben"
+        },
+        {
+          "Name": "label",
+          "Value": "SchoolSaas.Web.Identity.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bzxpNnimLurKmwSCjPqX03kCZEQhy7Yxad3W66Drj64="
+        }
+      ]
+    },
+    {
+      "Route": "SchoolSaas.Web.Identity.peczurrben.styles.css",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolSaas.Web.Identity.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bzxpNnimLurKmwSCjPqX03kCZEQhy7Yxad3W66Drj64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 00:02:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "peczurrben"
+        },
+        {
+          "Name": "label",
+          "Value": "SchoolSaas.Web.Identity.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bzxpNnimLurKmwSCjPqX03kCZEQhy7Yxad3W66Drj64="
+        }
+      ]
+    },
+    {
+      "Route": "SchoolSaas.Web.Identity.styles.css",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolSaas.Web.Identity.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bzxpNnimLurKmwSCjPqX03kCZEQhy7Yxad3W66Drj64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 00:02:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bzxpNnimLurKmwSCjPqX03kCZEQhy7Yxad3W66Drj64="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger.json",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\wwwroot\\swagger\\v1\\swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G/BUAa34+HL5nFsIGmsKDvCgbqSgSlXxxw38uLGJIpw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 11:34:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G/BUAa34+HL5nFsIGmsKDvCgbqSgSlXxxw38uLGJIpw="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger.lwprwlco9s.json",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity\\wwwroot\\swagger\\v1\\swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G/BUAa34+HL5nFsIGmsKDvCgbqSgSlXxxw38uLGJIpw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 11:34:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lwprwlco9s"
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/v1/swagger.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G/BUAa34+HL5nFsIGmsKDvCgbqSgSlXxxw38uLGJIpw="
+        }
+      ]
+    }
+  ]
+}

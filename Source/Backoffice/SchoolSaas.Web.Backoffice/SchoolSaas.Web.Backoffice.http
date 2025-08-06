@@ -1,0 +1,6 @@
+@SchoolSaas.Web.Backoffice_HostAddress = http://localhost:5232
+
+GET {{SchoolSaas.Web.Backoffice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

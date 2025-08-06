@@ -1,0 +1,331 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <style type="text/css">
+
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .body {
+            margin: 0px 36px;
+            font-family: 'Times New Roman', serif;
+        }
+
+        .transbox {
+            margin: 45px;
+            background-color: rgba(255,255,255,0.75);
+            /* border: 1px #ffffff;
+                                                            opacity: 0.7;*/
+            border-radius: 4px;
+            min-height: 200px
+        }
+
+            .transbox p {
+                margin: 1%;
+                font-weight: bolder;
+                color: black;
+                padding: 12px
+            }
+
+        .tableWrapper {
+            margin: 0;
+            padding: 0;
+            border-left: solid 6px #0075F8;
+            border-bottom-left-radius: 6px;
+            border-top-left-radius: 6px;
+            box-shadow: -5.73px 4.46px 9.55px #a4a4a4;
+        }
+
+        .tableHeader {
+            text-align: center;
+            font-size: 28px;
+            border-collapse: collapse;
+        }
+
+        table.tb {
+            width: 100px;
+            border-collapse: collapse;
+            background-color: #FFFFFF;
+        }
+
+        .tb th, .tb td, .tb tr {
+            border: solid 1px #9D9D9D;
+            padding: 5px;
+            color: #646464;
+        }
+
+        .table td:first-child, .table th:first-child {
+            border-left: 0px;
+        }
+
+        .tb thead {
+            background-color: #FFFFFF;
+        }
+
+            .tb thead th {
+                padding: 20px 10px;
+            }
+
+        .tb tbody {
+            text-align: center;
+        }
+
+        * {
+            font-size: 17px;
+        }
+
+        .section {
+            padding: 8px;
+            background-color: white;
+            margin-bottom: 1.875em;
+            position: relative;
+            height: auto;
+            min-height: 100% !important;
+            border-radius: 6px;
+            box-shadow: -5.73px 5.46px 9.55px 2.55px #E0DFE4;
+            border-color: #E0DFE4;
+            border: 1px solid #E0DFE4;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            text-align: left;
+        }
+
+        .secondTitleName {
+            font-size: 14px;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .thirdTitleName {
+            font-size: 18px;
+            font-weight: 580;
+            text-align: left;
+            color: #0075F8;
+        }
+
+        .header {
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #0075F8;
+        }
+
+        .client-info {
+            border-left: solid 6px #0075F8;
+        }
+
+        .color {
+            color: #0075F8;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .separator {
+            border: none;
+            border-top: 1px solid rgb(201, 201, 201);
+            overflow: visible;
+            text-align: center;
+            margin: 12px 0px
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .align-icon {
+            display: flex;
+            align-items: center;
+            gap: 4px
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .justify-content {
+            justify-content: center
+        }
+
+        .new-page {
+            page-break-after: always;
+        }
+
+
+
+        .button2 {
+            border: none;
+            color: white;
+            padding: 10px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            font-style: normal;
+            background-color: white;
+            border-radius: 5%;
+            color: #0075F8;
+            border: 1px solid #008CBA;
+        }
+
+            .button2:hover {
+                background-color: #0075F8;
+                color: white;
+            }
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .section-title {
+            border-collapse: collapse;
+            width: 95%;
+            margin: 10px 10px 10px 30px;
+        }
+
+            .section-title tr td {
+                padding: 30px;
+                border-collapse: collapse;
+            }
+
+        .section-body {
+            border-collapse: collapse;
+            width: 95%;
+            margin: 10px 10px 10px 30px;
+        }
+
+            .section-body tr td {
+                padding: 10px;
+            }
+
+        .border {
+            background: #EFEFEF;
+            position: relative;
+            margin-top: -12px;
+            height: 2px;
+            z-index: -1;
+        }
+
+        .title {
+            background: #ffffff;
+            display: inline;
+            padding-right: 20px;
+        }
+
+        .first-title-white {
+            color: #FFFFFF;
+        }
+
+        .second-title-white {
+            color: #FFFFFF;
+            line-height: 1.5;
+        }
+
+        .first-title {
+            color: #666666;
+        }
+
+        .second-title {
+            font-size: #FFFFFF;
+        }
+
+        .text-align-right {
+            text-align: right;
+        }
+
+        :root {
+            --ribbon-color: #42c736;
+            --shadow-color: #196b16;
+            --ribbon-tail-color: #32b027;
+            --ribbon-text-color: #041c02;
+        }
+
+        .ribbon {
+            font-size: 20px;
+            position: relative;
+            display: inline-block;
+            margin: 5em;
+            text-align: center;
+        }
+
+        .text {
+            font-family: sans-serif;
+            font-weight: bolder;
+            color: var(--ribbon-text-color);
+            display: inline-block;
+            padding: 0.5em 1em;
+            line-height: 1.2em;
+            background: var(--ribbon-color);
+            position: relative;
+        }
+
+            .ribbon:after, .ribbon:before,
+            .text:before, .text:after,
+            .bold:before {
+                content: '';
+                position: absolute;
+                border-style: solid;
+            }
+
+        .ribbon:before {
+            top: 0.3em;
+            left: 0.2em;
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: #EBECED;
+            z-index: -2;
+        }
+
+        .text:before {
+            bottom: 100%;
+            left: 0;
+            border-width: .5em .7em 0 0;
+            border-color: transparent var(--shadow-color) transparent transparent;
+        }
+
+        .text:after {
+            top: 100%;
+            right: 0;
+            border-width: .5em 2em 0 0;
+            border-color: var(--shadow-color) transparent transparent transparent;
+        }
+
+        .ribbon:after, .bold:before {
+            top: 0.5em;
+            right: -2em;
+            border-width: 1.1em 1em 1.1em 3em;
+            border-color: var(--ribbon-tail-color) transparent var(--ribbon-tail-color) var(--ribbon-tail-color);
+            z-index: -1;
+        }
+
+        .bold:before {
+            border-color: #EBECED transparent #EBECED #EBECED;
+            top: 0.7em;
+            right: -2.3em;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    @RenderBody()
+</body>
+</html>

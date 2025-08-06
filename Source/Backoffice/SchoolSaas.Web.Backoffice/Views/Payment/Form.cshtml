@@ -1,0 +1,33 @@
+﻿@model PaymentViewModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Payment";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ACG.MAEC.EConsulatMA.Web.FrontofficeService</title>
+    <script type="text/javascript" language="javascript">
+        function submit() {
+            document.paymentForm.submit();
+        }
+    </script>
+</head>
+<body onload="javascript:submit()">
+    <form method="POST" action="@Model.Endpoint" name="paymentForm">
+        @{
+            foreach (KeyValuePair<string, string> pair in Model.Fields)
+            {
+                string escapedValue = pair.Value.Replace("\\", "\\\\").Replace("|", "\\|").Trim();
+                string lowerValue = pair.Key.ToLower(new System.Globalization.CultureInfo("en-US", false));
+                @Html.Raw("<input type=\"hidden\" name=\"" + pair.Key + "\" value=\"" + escapedValue + "\" /><br />\n\r")
+            }
+        }
+        <input type="hidden" name="signature" value="@Model.Signature" />
+        <input type="submit" name="pay" value="Pay" />
+    </form>
+</body>
+</html>
+

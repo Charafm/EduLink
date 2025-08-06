@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "SchoolSaas.Web.Backoffice.nw1wq2s8i6.styles.css",
+      "AssetFile": "SchoolSaas.Web.Backoffice.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wcx3tBANYzqpVOiJR7cit6786wKlWYp4KuhzAfdRqJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 21:23:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nw1wq2s8i6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wcx3tBANYzqpVOiJR7cit6786wKlWYp4KuhzAfdRqJg="
+        },
+        {
+          "Name": "label",
+          "Value": "SchoolSaas.Web.Backoffice.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "SchoolSaas.Web.Backoffice.styles.css",
+      "AssetFile": "SchoolSaas.Web.Backoffice.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wcx3tBANYzqpVOiJR7cit6786wKlWYp4KuhzAfdRqJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 21:23:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wcx3tBANYzqpVOiJR7cit6786wKlWYp4KuhzAfdRqJg="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger - Back.66q06246mr.json",
+      "AssetFile": "swagger/v1/swagger - Back.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "201064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"flJjlBsylUMmTiRoa8F8FINVWL71h5ttgJjLxvMwnv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:34:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "66q06246mr"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-flJjlBsylUMmTiRoa8F8FINVWL71h5ttgJjLxvMwnv0="
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/v1/swagger - Back.json"
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger - Back.json",
+      "AssetFile": "swagger/v1/swagger - Back.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "201064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"flJjlBsylUMmTiRoa8F8FINVWL71h5ttgJjLxvMwnv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:34:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-flJjlBsylUMmTiRoa8F8FINVWL71h5ttgJjLxvMwnv0="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger.json",
+      "AssetFile": "swagger/v1/swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "220818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k+mne1AiEvA5P+699BcgSyW0DeTWq7Z12YOtQfcJyPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 05:41:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k+mne1AiEvA5P+699BcgSyW0DeTWq7Z12YOtQfcJyPM="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger.vt2lgqjgsn.json",
+      "AssetFile": "swagger/v1/swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "220818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k+mne1AiEvA5P+699BcgSyW0DeTWq7Z12YOtQfcJyPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 05:41:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vt2lgqjgsn"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k+mne1AiEvA5P+699BcgSyW0DeTWq7Z12YOtQfcJyPM="
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}

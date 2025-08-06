@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "yLjkZTOdNUTedCadv2PHKuWcrJ4nTIJJqMput0IA0jg=",
+  "Source": "SchoolSaas.Web.IdentityFrontal",
+  "BasePath": "_content/SchoolSaas.Web.IdentityFrontal",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SchoolSaas.Web.IdentityFrontal\\wwwroot",
+      "Source": "SchoolSaas.Web.IdentityFrontal",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\IdentityFrontal\\SchoolSaas.Web.IdentityFrontal\\wwwroot\\",
+      "BasePath": "_content/SchoolSaas.Web.IdentityFrontal",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\IdentityFrontal\\SchoolSaas.Web.IdentityFrontal\\wwwroot\\swagger\\v1\\swagger.json",
+      "SourceId": "SchoolSaas.Web.IdentityFrontal",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\IdentityFrontal\\SchoolSaas.Web.IdentityFrontal\\wwwroot\\",
+      "BasePath": "_content/SchoolSaas.Web.IdentityFrontal",
+      "RelativePath": "swagger/v1/swagger#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "91bxu0txfj",
+      "Integrity": "HaROBXaFpWoeWuH7Xa/83lI7bfkCS3WTqWhMO1/fHHY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\v1\\swagger.json"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "swagger/v1/swagger.91bxu0txfj.json",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\IdentityFrontal\\SchoolSaas.Web.IdentityFrontal\\wwwroot\\swagger\\v1\\swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HaROBXaFpWoeWuH7Xa/83lI7bfkCS3WTqWhMO1/fHHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 22:13:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "91bxu0txfj"
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/v1/swagger.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HaROBXaFpWoeWuH7Xa/83lI7bfkCS3WTqWhMO1/fHHY="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger.json",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\IdentityFrontal\\SchoolSaas.Web.IdentityFrontal\\wwwroot\\swagger\\v1\\swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HaROBXaFpWoeWuH7Xa/83lI7bfkCS3WTqWhMO1/fHHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 22:13:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HaROBXaFpWoeWuH7Xa/83lI7bfkCS3WTqWhMO1/fHHY="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "swagger/v1/swagger.91bxu0txfj.json",
+      "AssetFile": "swagger/v1/swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HaROBXaFpWoeWuH7Xa/83lI7bfkCS3WTqWhMO1/fHHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 22:13:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "91bxu0txfj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HaROBXaFpWoeWuH7Xa/83lI7bfkCS3WTqWhMO1/fHHY="
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger.json",
+      "AssetFile": "swagger/v1/swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HaROBXaFpWoeWuH7Xa/83lI7bfkCS3WTqWhMO1/fHHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 22:13:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HaROBXaFpWoeWuH7Xa/83lI7bfkCS3WTqWhMO1/fHHY="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3348 @@
+[
+    {
+        "Entity":  "AcademicYear",
+        "Properties":  [
+                           {
+                               "Name":  "StartYear",
+                               "Type":  "public int",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "EndYear",
+                               "Type":  "public int",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Description",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Attendance",
+        "Properties":  [
+                           {
+                               "Name":  "StudentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "CourseId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Date",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Status",
+                               "Type":  "public AttendanceEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "NotesFr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "NotesAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "NotesEn",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Student",
+                               "Type":  "public Student",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Course",
+                               "Type":  "public Course",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Course",
+        "Properties":  [
+                           {
+                               "Name":  "TitleFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "TitleAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "TitleEn",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Code",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Description",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeMapping",
+                               "Type":  "public CourseGradeMapping",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "TeacherCourseAssignments",
+                               "Type":  "public TeacherCourseAssignment",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "CourseGradeMapping",
+        "Properties":  [
+                           {
+                               "Name":  "CourseId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeLevelId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "IsElective",
+                               "Type":  "public bool",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Sequence",
+                               "Type":  "public int",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Course",
+                               "Type":  "public Course",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeLevel",
+                               "Type":  "public GradeLevel",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Grade",
+        "Properties":  [
+                           {
+                               "Name":  "StudentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "CourseId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "SemesterId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "TeacherId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Score",
+                               "Type":  "public double",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeType",
+                               "Type":  "public GradeTypeEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "TeacherCommentFr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "TeacherCommentAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "TeacherCommentEn",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Student",
+                               "Type":  "public Student",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Course",
+                               "Type":  "public Course",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Semester",
+                               "Type":  "public Semester",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "GradeAppeal",
+        "Properties":  [
+                           {
+                               "Name":  "GradeId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Reason",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Status",
+                               "Type":  "public AppealStatusEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "SubmittedBy",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "SubmittedAt",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Grade",
+                               "Type":  "public Grade",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "GradeLevel",
+        "Properties":  [
+                           {
+                               "Name":  "TitleFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "TitleAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "TitleEn",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Description",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "EducationalStage",
+                               "Type":  "public EducationalStageEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "CourseGradeMappings",
+                               "Type":  "ICollection\u003cCourseGradeMapping\u003e",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "GradeSection",
+        "Properties":  [
+                           {
+                               "Name":  "GradeLevelId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "SectionNameFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "SectionNameAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "SectionNameEn",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "MaxCapacity",
+                               "Type":  "public int",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeLevel",
+                               "Type":  "public GradeLevel",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "GradeSectionStudentMapping",
+        "Properties":  [
+                           {
+                               "Name":  "StudentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeSectionId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Student",
+                               "Type":  "public Student",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeSection",
+                               "Type":  "public GradeSection",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Schedule",
+        "Properties":  [
+                           {
+                               "Name":  "CourseId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ClassroomId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeSectionId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "DayOfWeek",
+                               "Type":  "public DayOfWeek",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "StartTime",
+                               "Type":  "public TimeOnly",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "EndTime",
+                               "Type":  "public TimeOnly",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Duration",
+                               "Type":  "public TimeSpan",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "TeacherId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Teacher",
+                               "Type":  "public Teacher",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Course",
+                               "Type":  "public Course",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeSection",
+                               "Type":  "public GradeSection",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Classroom",
+                               "Type":  "public Classroom",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Semester",
+        "Properties":  [
+                           {
+                               "Name":  "AcademicYearId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Name",
+                               "Type":  "public SemesterNameEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "StartDate",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "EndDate",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AcademicYear",
+                               "Type":  "public AcademicYear",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "TeacherCourseAssignment",
+        "Properties":  [
+                           {
+                               "Name":  "TeacherId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "CourseId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AcademicYearId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Teacher",
+                               "Type":  "public Teacher",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Course",
+                               "Type":  "public Course",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AcademicYear",
+                               "Type":  "public AcademicYear",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Vacation",
+        "Properties":  [
+                           {
+                               "Name":  "AcademicYearId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Name",
+                               "Type":  "public VacationNameEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "StartDate",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "EndDate",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Duration",
+                               "Type":  "public int",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AcademicYear",
+                               "Type":  "public AcademicYear",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "LogInfo",
+        "Properties":  [
+                           {
+                               "Name":  "CallId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Thread",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Level",
+                               "Type":  "public LogLevelEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "EventType",
+                               "Type":  "public LogEventTypeEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Method",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Assembly",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ErrorCode",
+                               "Type":  "public int",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "CallDuration",
+                               "Type":  "public double",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ReturnedLines",
+                               "Type":  "public int",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Message",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Exception",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Provider",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "RootCallId",
+                               "Type":  "public Guid",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Book",
+        "Properties":  [
+                           {
+                               "Name":  "TitleFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "TitleAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "TitleEn",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AuthorNameFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AuthorNameAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AuthorNameEn",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ISBN",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Subject",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Building",
+        "Properties":  {
+
+                       },
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Classroom",
+        "Properties":  [
+                           {
+                               "Name":  "BuildingId",
+                               "Type":  "public Guid",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "RoomNumber",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "RoomTitleFr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "RoomTitleAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "RoomType",
+                               "Type":  "public ClassroomTypeEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Capacity",
+                               "Type":  "public int",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Building",
+                               "Type":  "public Building",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "GradeClassroomAssignment",
+        "Properties":  [
+                           {
+                               "Name":  "GradeSectionId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ClassroomId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AcademicYearId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "IsFixed",
+                               "Type":  "public bool",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeSection",
+                               "Type":  "public GradeSection",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Classroom",
+                               "Type":  "public Classroom",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "GradeResource",
+        "Properties":  [
+                           {
+                               "Name":  "GradeLevelId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "BookId",
+                               "Type":  "public Guid",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "SupplyId",
+                               "Type":  "public Guid",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "SupplyQuantity",
+                               "Type":  "public int",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeLevel",
+                               "Type":  "public GradeLevel",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Book",
+                               "Type":  "public Book",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Supply",
+                               "Type":  "public SchoolSupply",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "SchoolSupply",
+        "Properties":  [
+                           {
+                               "Name":  "NameFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "NameAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "NameEn",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "DescriptionFr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "DescriptionAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "DescriptionEn",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Branch",
+        "Properties":  [
+                           {
+                               "Name":  "SchoolId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "BranchNameFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "BranchNameAr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "BranchNameEn",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AddressFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AddressAr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Phone",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "PrincipalNameFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "PrincipalNameAr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "CityId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Enrollment",
+        "Properties":  [
+                           {
+                               "Name":  "StudentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "BranchId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Status",
+                               "Type":  "public EnrollmentStatusEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "SubmittedAt",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AdminComment",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Student",
+                               "Type":  "public Student",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Branch",
+                               "Type":  "public Branch",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "EnrollmentDocument",
+        "Properties":  [
+                           {
+                               "Name":  "EnrollmentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "FilePath",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "DocumentType",
+                               "Type":  "public EnrollmentDocumentTypeEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "VerificationStatus",
+                               "Type":  "public VerificationStatusEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "UploadedAt",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "VerificationComment",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Enrollment",
+                               "Type":  "public Enrollment",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "TransferDocument",
+        "Properties":  [
+                           {
+                               "Name":  "TransferId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "FilePath",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "DocumentType",
+                               "Type":  "public EnrollmentDocumentTypeEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "UploadedAt",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Remarks",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "TransferRequest",
+                               "Type":  "public TransferRequest",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "TransferRequest",
+        "Properties":  [
+                           {
+                               "Name":  "StudentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "FromBranchId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "FromSchoolId",
+                               "Type":  "public Guid",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ToBranchId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ToSchoolId",
+                               "Type":  "public Guid",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ReasonEnum",
+                               "Type":  "public TransferRequestReasonEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Reason",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Status",
+                               "Type":  "public TransferRequestStatus",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Documents",
+                               "Type":  "public List\u003cTransferDocument\u003e",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "SubmittedAt",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AdminComment",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Student",
+                               "Type":  "public Student",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Staff",
+        "Properties":  [
+                           {
+                               "Name":  "UserId",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "BranchId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "FirstNameFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "FirstNameAr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "LastNameFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "LastNameAr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "DepartmentFr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "DepartmentAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Role",
+                               "Type":  "public StaffRole",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "JobTitleFr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "JobTitleAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Email",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Phone",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Branch",
+                               "Type":  "public Branch",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "StaffAudit",
+        "Properties":  [
+                           {
+                               "Name":  "StaffId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ActionType",
+                               "Type":  "public StaffActionType",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ActionDate",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Details",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "PerformedBy",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Staff",
+                               "Type":  "public Staff",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Teacher",
+        "Properties":  [
+                           {
+                               "Name":  "UserId",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "BranchId",
+                               "Type":  "public Guid",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "FirstNameFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "FirstNameAr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "LastNameFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "LastNameAr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Email",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Phone",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "SpecializationFr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "SpecializationAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "HireDate",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Status",
+                               "Type":  "public TeacherStatusEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Branch",
+                               "Type":  "public Branch",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "DisciplinaryRecord",
+        "Properties":  [
+                           {
+                               "Name":  "StudentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Description",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "IncidentDate",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Resolved",
+                               "Type":  "public bool",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Student",
+                               "Type":  "public Student",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Parent",
+        "Properties":  [
+                           {
+                               "Name":  "UserId",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "BranchId",
+                               "Type":  "public Guid",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "FirstNameFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "FirstNameAr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "LastNameFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "LastNameAr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Email",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Phone",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "CIN",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Occupation",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AddressFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AddressAr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "IsIdentityVerified",
+                               "Type":  "public bool",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "VerificationDate",
+                               "Type":  "public DateTime",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "IsDeleted",
+                               "Type":  "public bool",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Branch",
+                               "Type":  "public Branch",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ParentDetail",
+                               "Type":  "public ParentDetail",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "ParentAudit",
+        "Properties":  [
+                           {
+                               "Name":  "ParentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ActionType",
+                               "Type":  "public ParentActionType",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ActionDate",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Details",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "PerformedBy",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Parent",
+                               "Type":  "public Parent",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "ParentDetail",
+        "Properties":  [
+                           {
+                               "Name":  "ParentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AddressFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AddressAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Occupation",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AdditionalContactInfo",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Parent",
+                               "Type":  "public Parent",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "Student",
+        "Properties":  [
+                           {
+                               "Name":  "UserId",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "BranchId",
+                               "Type":  "public Guid",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "FirstNameFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "FirstNameAr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "LastNameFr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "LastNameAr",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "DateOfBirth",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Gender",
+                               "Type":  "public GenderEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "EnrollmentDate",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Status",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Detail",
+                               "Type":  "public StudentDetail",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Branch",
+                               "Type":  "public Branch",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "StudentDetail",
+        "Properties":  [
+                           {
+                               "Name":  "StudentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "MedicalInfo",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "EmergencyContact",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "PreviousSchool",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AdditionalNotes",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Email",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Phone",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Student",
+                               "Type":  "public Student",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "StudentFinance",
+        "Properties":  [
+                           {
+                               "Name":  "StudentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Status",
+                               "Type":  "public PaymentStatusEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "DueAmount",
+                               "Type":  "public double",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Comment",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "StudentParent",
+        "Properties":  [
+                           {
+                               "Name":  "StudentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ParentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "RelationshipType",
+                               "Type":  "public StudentParentRelationshipEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Student",
+                               "Type":  "public Student",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Parent",
+                               "Type":  "public Parent",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "TranscriptRecord",
+        "Properties":  [
+                           {
+                               "Name":  "StudentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "CourseId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Grade",
+                               "Type":  "public double",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Term",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AcademicYear",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Course",
+                               "Type":  "public Course",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "AttendanceHistory",
+        "Properties":  [
+                           {
+                               "Name":  "AttendanceId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "StudentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Date",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Status",
+                               "Type":  "public AttendanceEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangedBy",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangedAt",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangeReason",
+                               "Type":  "public AttendanceChangeReasonEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "PreviousNotesFr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "PreviousNotesAr",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "PreviousNotesEn",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Student",
+                               "Type":  "public Student",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Attendances",
+                               "Type":  "public Attendance",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "EnrollmentStatusHistory",
+        "Properties":  [
+                           {
+                               "Name":  "EnrollmentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "OldStatus",
+                               "Type":  "public EnrollmentStatusEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "NewStatus",
+                               "Type":  "public EnrollmentStatusEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangedBy",
+                               "Type":  "public required string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangedAt",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangeReason",
+                               "Type":  "public EnrollmentChangeReasonEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Reason",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Enrollment",
+                               "Type":  "public Enrollment",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "GradeHistory",
+        "Properties":  [
+                           {
+                               "Name":  "GradeId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "OldScore",
+                               "Type":  "public double",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "NewScore",
+                               "Type":  "public double",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ModifiedBy",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ModifiedAt",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "OldComments",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "NewComments",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Grade",
+                               "Type":  "public Grade",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "ResourceHistory",
+        "Properties":  [
+                           {
+                               "Name":  "ResourceId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ResourceType",
+                               "Type":  "public ResourceType",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ActionType",
+                               "Type":  "public ResourceActionType",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "OldValues",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangedBy",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangedAt",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "SchoolSupplyHistory",
+        "Properties":  [
+                           {
+                               "Name":  "SupplyId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ActionType",
+                               "Type":  "public ResourceActionType",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "OldValues",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangedBy",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangedAt",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Supply",
+                               "Type":  "public SchoolSupply",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "StudentHistory",
+        "Properties":  [
+                           {
+                               "Name":  "StudentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "OldStatus",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "NewStatus",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangedBy",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangedAt",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "FieldChanges",
+                               "Type":  "public string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Student",
+                               "Type":  "public Student",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "SupplyAssignmentHistory",
+        "Properties":  [
+                           {
+                               "Name":  "ChangeDate",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "AssignmentId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "UserId",
+                               "Type":  "public required string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Action",
+                               "Type":  "public SupplyAssignmentActionEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeResource",
+                               "Type":  "public Guid",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeLevel",
+                               "Type":  "public Guid",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "SchoolSupply",
+                               "Type":  "public Guid",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Comment",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeResourceEntity",
+                               "Type":  "public GradeResource",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "GradeLevelEntity",
+                               "Type":  "public GradeLevel",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "SchoolSupplyEntity",
+                               "Type":  "public SchoolSupply",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    },
+    {
+        "Entity":  "TransferRequestHistory",
+        "Properties":  [
+                           {
+                               "Name":  "TransferRequestId",
+                               "Type":  "public Guid",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "OldStatus",
+                               "Type":  "public TransferRequestStatus",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "NewStatus",
+                               "Type":  "public TransferRequestStatus",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangedBy",
+                               "Type":  "public required string",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangedAt",
+                               "Type":  "public DateTime",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "ChangeReason",
+                               "Type":  "public TransferRequestChangeReasonEnum",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "Reason",
+                               "Type":  "public string",
+                               "IsNullable":  true,
+                               "Attributes":  {
+
+                                              }
+                           },
+                           {
+                               "Name":  "TransferRequest",
+                               "Type":  "public TransferRequest",
+                               "IsNullable":  false,
+                               "Attributes":  {
+
+                                              }
+                           }
+                       ],
+        "BaseEntityProperties":  {
+                                     "Created":  "DateTime",
+                                     "LastModified":  "DateTime?",
+                                     "CreatedBy":  "string?",
+                                     "LastModifiedBy":  "string?",
+                                     "IsDeleted":  "bool?",
+                                     "RowVersion":  "byte[]?"
+                                 }
+    }
+]

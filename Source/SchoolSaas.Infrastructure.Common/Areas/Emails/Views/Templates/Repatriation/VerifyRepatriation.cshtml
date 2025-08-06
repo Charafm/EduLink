@@ -1,0 +1,33 @@
+﻿@using SchoolSaas.Application.Common.Models
+@model TemplateViewModel<VerifyRepatriationDto>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <table style="width: 100%; height: auto; border: 0px; margin: 0px; padding: 0px; background-color: #FAFAFA; color: #000000;">
+        <tr>
+            <td style="padding: 15px; line-height: 20px; text-align: justify; color: #000000;">
+                Bonjour,
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding: 15px; line-height: 20px; text-align: justify; color: #000000;">
+                Pour valider la demande de la défunte : <span>@Model.Data.FullName</span> Cliquez sur le lien ci-dessus.
+                <br />
+                <a href="@Model.Data.Link">lien</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 15px; line-height: 20px; text-align: justify; color: #000000;">
+                Cordialement.
+                <br />
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>

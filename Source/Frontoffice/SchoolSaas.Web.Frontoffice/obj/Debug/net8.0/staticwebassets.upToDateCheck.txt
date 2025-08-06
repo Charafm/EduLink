@@ -1,0 +1,2 @@
+wwwroot\swagger\v1\swagger - Frontoffice.json
+wwwroot\swagger\v1\swagger.json

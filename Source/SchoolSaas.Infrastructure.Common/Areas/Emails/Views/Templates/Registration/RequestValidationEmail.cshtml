@@ -1,0 +1,34 @@
+﻿@model TemplateViewModel<ACG.MAEC.EConsulatMA.Core.Application.Common.Models.RegistrationMRE.RequestValidationEmailDto>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <table style="width: 100%; height: auto; border: 0px; margin: 0px; padding: 0px; background-color: #FAFAFA; color: #000000;">
+        <tr>
+            <td style="padding: 15px; line-height: 20px; text-align: justify; color: #000000;">
+                Bonjour,
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 15px; line-height: 20px; text-align: justify; color: #000000;">
+                Nous avous bien recus la demande d'immatrciulation numéro @Model.Data.RequestNumber de votre enfant @Model.Data.CitizenFullName .
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 15px; line-height: 20px; text-align: justify; color: #000000;">
+                Nous vous prions d'utliser le lien suivant @Model.Data.ValidationLink pour accéder à notre protal et valider cette demande .
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 15px; line-height: 20px; text-align: justify; color: #000000;">
+                Cordialement.
+                <br />
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

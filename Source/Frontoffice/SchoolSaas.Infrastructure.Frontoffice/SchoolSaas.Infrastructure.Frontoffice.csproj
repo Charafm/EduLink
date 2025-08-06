@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<OpenApiReference Include="..\..\Backoffice\SchoolSaas.Web.Backoffice\wwwroot\swagger\v1\swagger.json" CodeGenerator="NSwagCSharp" Namespace="SchoolSaas.Infrastructure.Frontoffice.OpenAPIs.BackofficeService" ClassName="{controller}Client">
+			<SourceUri>https://edulinkbackoffice-fkbmdcehenhcbzdj.francecentral-01.azurewebsites.net/swagger/index.html</SourceUri>
+			<!--<SourceUri>http://localhost:7066/swagger/v1/swagger.json</SourceUri>-->
+			<NSwagGenerateExceptionClasses>true</NSwagGenerateExceptionClasses>
+		</OpenApiReference>
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+		<PackageReference Include="NSwag.ApiDescription.Client" Version="14.0.3">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="NSwag.MSBuild" Version="14.0.3">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\SchoolSaas.Infrastructure.Common\SchoolSaas.Infrastructure.Common.csproj" />
+	</ItemGroup>
+
+</Project>

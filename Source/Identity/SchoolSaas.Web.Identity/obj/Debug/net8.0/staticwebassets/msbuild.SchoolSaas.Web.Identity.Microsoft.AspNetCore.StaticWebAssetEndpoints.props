@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/SchoolSaas.Web.Identity/SchoolSaas.Web.Identity.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SchoolSaas.Web.Identity.peczurrben.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bzxpNnimLurKmwSCjPqX03kCZEQhy7Yxad3W66Drj64="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1139"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bzxpNnimLurKmwSCjPqX03kCZEQhy7Yxad3W66Drj64=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 00:02:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SchoolSaas.Web.Identity/SchoolSaas.Web.Identity.peczurrben.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SchoolSaas.Web.Identity.peczurrben.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"peczurrben"},{"Name":"integrity","Value":"sha256-bzxpNnimLurKmwSCjPqX03kCZEQhy7Yxad3W66Drj64="},{"Name":"label","Value":"_content/SchoolSaas.Web.Identity/SchoolSaas.Web.Identity.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1139"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bzxpNnimLurKmwSCjPqX03kCZEQhy7Yxad3W66Drj64=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 00:02:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SchoolSaas.Web.Identity/swagger/v1/swagger.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger\v1\swagger.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-G/BUAa34\u002BHL5nFsIGmsKDvCgbqSgSlXxxw38uLGJIpw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"90585"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022G/BUAa34\u002BHL5nFsIGmsKDvCgbqSgSlXxxw38uLGJIpw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 22 Apr 2025 11:34:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SchoolSaas.Web.Identity/swagger/v1/swagger.lwprwlco9s.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger\v1\swagger.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lwprwlco9s"},{"Name":"integrity","Value":"sha256-G/BUAa34\u002BHL5nFsIGmsKDvCgbqSgSlXxxw38uLGJIpw="},{"Name":"label","Value":"_content/SchoolSaas.Web.Identity/swagger/v1/swagger.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"90585"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022G/BUAa34\u002BHL5nFsIGmsKDvCgbqSgSlXxxw38uLGJIpw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 22 Apr 2025 11:34:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

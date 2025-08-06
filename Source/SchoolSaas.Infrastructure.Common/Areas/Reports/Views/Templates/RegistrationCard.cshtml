@@ -1,0 +1,136 @@
+﻿@using System.Text
+@using ACG.MAEC.EConsulatMA.Core.Application.Common.Models;
+@using ACG.MAEC.EConsulatMA.Infrastructure;
+@using SchoolSaas.Application.Common.Models
+@model PdfViewModel<RegistrationCertificateDto>
+@{
+    Layout = null;
+}
+<!DOCTYPE>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Carte d'immatriculation</title>
+    <style>
+        body {
+            font-family: 'Times New Roman';
+            font-size: 13px
+        }
+        /*         it still to center card div      */
+        .card {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .card-right {
+            float: left;
+            width: 40%;
+            height: 100%;
+        }
+
+        .card-left {
+            float: left;
+            width: 40%;
+            height: 100%;
+            padding-top: 10%;
+        }
+
+        .data {
+            padding-left: 5em;
+            text-align: center;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 12px;
+        }
+
+            table td {
+                padding-bottom: 10px;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-left">
+            <p>
+                N° immatriculation: @Model.Data.RegistrationNumber<br />
+                Cette Carte ne doit être délivrée qu'aux marocains
+                pour une durée de 5 ans.
+            </p>
+            <p>
+                Elle doit être retournée au Consulat quand le
+                titulaire rentre définitivement au Maroc.<br />
+                Fait à @Model.Data.AmbassadCountry le @DateTime.Now.ToString("dd/MM/yyyy")
+            </p>
+        </div>
+        <div class="card-right">
+            <p style="text-align : center;">
+                L'Ambassadeur du Royaume du Maroc à<br />
+                @Model.Data.AmbassadCountry<br />
+                Certifie que M(me)(lle)
+            </p>
+            <table>
+                <tr>
+                    <td>
+                        Prénom :
+                    </td>
+                    <td class="data">
+                        @Model.Data.FirstName
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Nom :
+                    </td>
+                    <td class="data">
+                        @Model.Data.LasttName
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date de naissance :
+                    </td>
+                    <td class="data">
+                        @Model.Data.BirthDate.ToString("dd/MM/yyyy")
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Lieu de naissance :
+                    </td>
+                    <td class="data">
+                        @Model.Data.BirthPlace
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Profession :
+                    </td>
+                    <td class="data">
+                        @Model.Data.Profession
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        CIN n° :
+                    </td>
+                    <td class="data">
+                        @Model.Data.CIN
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Adresse :
+                    </td>
+                    <td class="data">
+                        @Model.Data.Address
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

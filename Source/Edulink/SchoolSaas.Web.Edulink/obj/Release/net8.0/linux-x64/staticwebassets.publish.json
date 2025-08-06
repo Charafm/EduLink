@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "fFMEOjLGsizBaUAY1pT/tjH/T+imOYGnWSPVk1M011E=",
+  "Source": "SchoolSaas.Web.Edulink",
+  "BasePath": "_content/SchoolSaas.Web.Edulink",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SchoolSaas.Web.Edulink\\wwwroot",
+      "Source": "SchoolSaas.Web.Edulink",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Edulink\\SchoolSaas.Web.Edulink\\wwwroot\\",
+      "BasePath": "_content/SchoolSaas.Web.Edulink",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Edulink\\SchoolSaas.Web.Edulink\\wwwroot\\swagger\\v1\\swagger.json",
+      "SourceId": "SchoolSaas.Web.Edulink",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Edulink\\SchoolSaas.Web.Edulink\\wwwroot\\",
+      "BasePath": "_content/SchoolSaas.Web.Edulink",
+      "RelativePath": "swagger/v1/swagger#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "deoy9xm6od",
+      "Integrity": "+6LkYHrF18HnOXt/h98lhEmS7LsT3hptxuww03gVg/g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger\\v1\\swagger.json"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "swagger/v1/swagger.deoy9xm6od.json",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Edulink\\SchoolSaas.Web.Edulink\\wwwroot\\swagger\\v1\\swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+6LkYHrF18HnOXt/h98lhEmS7LsT3hptxuww03gVg/g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 21:59:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "deoy9xm6od"
+        },
+        {
+          "Name": "label",
+          "Value": "swagger/v1/swagger.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+6LkYHrF18HnOXt/h98lhEmS7LsT3hptxuww03gVg/g="
+        }
+      ]
+    },
+    {
+      "Route": "swagger/v1/swagger.json",
+      "AssetFile": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Edulink\\SchoolSaas.Web.Edulink\\wwwroot\\swagger\\v1\\swagger.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+6LkYHrF18HnOXt/h98lhEmS7LsT3hptxuww03gVg/g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 21:59:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+6LkYHrF18HnOXt/h98lhEmS7LsT3hptxuww03gVg/g="
+        }
+      ]
+    }
+  ]
+}

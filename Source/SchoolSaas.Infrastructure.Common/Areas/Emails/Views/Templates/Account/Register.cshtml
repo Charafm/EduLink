@@ -1,0 +1,51 @@
+﻿@using ACG.MAEC.EConsulatMA.Core.Application.Identity.DataTransferObjects
+@model TemplateViewModel<UserCreateDto>
+<table>
+
+    <tbody>
+        <tr>
+            <td>
+                <img height="65px" style="vertical-align:middle"
+                     src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTY0IiBoZWlnaHQ9IjE2NCIgdmlld0JveD0iMCAwIDE2NCAxNjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF8xMDY3XzE1MTE2KSI+CjxwYXRoIGQ9Ik0xMDcuNzM5IDUxLjExNjJDOTIuOTU2NyA1MS4xMTYyIDgwLjg4MDkgNjMuNjU4OCA4MC44ODA5IDc5LjMzNzFWMTY0QzExMC42NTQgMTY0IDEzNC41OTcgMTM4LjcwNiAxMzQuNTk3IDEwNy41NThWNTEuMTE2MkgxMDcuNzM5WiIgZmlsbD0iIzAwNzVGOCIvPgo8cGF0aCBkPSJNMTA3LjczOSAwQzEyMi41MjIgMCAxMzQuNTk3IDExLjQ5MTQgMTM0LjU5NyAyNS41NTg2QzEzNC41OTcgMzkuNjI1NyAxMjIuNTIyIDUxLjExNzEgMTA3LjczOSA1MS4xMTcxQzkyLjk1NjcgNTEuMTE3MSA4MC44ODA5IDM5LjYyNTcgODAuODgwOSAyNS41NTg2QzgxLjA4OTEgMTEuNDkxNCA5Mi45NTY3IDAgMTA3LjczOSAwWiIgZmlsbD0iI0ZGRDEwMCIvPgo8cGF0aCBkPSJNODAuODgxIDBDNTIuNDM3NyAwIDI5LjQwMjYgMjQuNzk1NiAyOS40MDI2IDU1LjM3NjlDMjkuNDAyNiA4NS45NTgyIDUyLjQzNzcgMTEwLjc1NCA4MC44ODEgMTEwLjc1NFYwWiIgZmlsbD0iI0ZGMkE4RSIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzEwNjdfMTUxMTYiPgo8cmVjdCB3aWR0aD0iMTY0IiBoZWlnaHQ9IjE2NCIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K">
+                <br />
+                <span style="font-size: 35px">
+                    @localizer["Hello"] @Model.Data.FirstName @Model.Data.LastName,
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td>@localizer["Register_P1"]</td>
+        </tr>
+        <tr>
+            <td>@localizer["Register_P2"] @Model.Data.UserName</td>
+        </tr>
+        <tr>
+            <td>@localizer["Register_P3"] @Model.Data.Password</td>
+        </tr>
+        <tr>
+            <table>
+                <tr>
+                    <td>
+                        <a href="https://econsulatma-fo-dev.azurewebsites.net/"
+                           class="link-button accept-link" style="color:white">
+                            @localizer["Login"]
+
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>@localizer["IgnoreThisEmail"]</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>
+                            @localizer["Regards"],<br>
+                            @localizer["EConsulatMATeam"]
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </tr>
+    </tbody>
+</table>
+

@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/SchoolSaas.Web.IdentityFrontal/swagger/v1/swagger.em5e4mz3uz.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger\v1\swagger.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"em5e4mz3uz"},{"Name":"integrity","Value":"sha256-9p9e4SkOdoA5nvdfotdGgTckFjVJtM0nLqXN1C595EE="},{"Name":"label","Value":"_content/SchoolSaas.Web.IdentityFrontal/swagger/v1/swagger.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"43126"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u00229p9e4SkOdoA5nvdfotdGgTckFjVJtM0nLqXN1C595EE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 00:56:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SchoolSaas.Web.IdentityFrontal/swagger/v1/swagger.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger\v1\swagger.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9p9e4SkOdoA5nvdfotdGgTckFjVJtM0nLqXN1C595EE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"43126"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u00229p9e4SkOdoA5nvdfotdGgTckFjVJtM0nLqXN1C595EE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 05 May 2025 00:56:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

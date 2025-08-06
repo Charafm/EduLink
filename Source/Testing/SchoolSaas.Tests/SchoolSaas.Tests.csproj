@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="FluentAssertions" Version="8.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="Serilog" Version="4.2.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+    <PackageReference Include="System.Linq.Async" Version="6.0.1" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Backoffice\SchoolSaas.Application.Backoffice\SchoolSaas.Application.Backoffice.csproj" />
+    <ProjectReference Include="..\..\Backoffice\SchoolSaas.Domain.Backoffice\SchoolSaas.Domain.Backoffice.csproj" />
+    <ProjectReference Include="..\..\Backoffice\SchoolSaas.Infrastructure.Backoffice\SchoolSaas.Infrastructure.Backoffice.csproj" />
+    <ProjectReference Include="..\..\Backoffice\SchoolSaas.Web.Backoffice\SchoolSaas.Web.Backoffice.csproj" />
+    <ProjectReference Include="..\..\Identity\SchoolSaas.Application.Identity\SchoolSaas.Application.Identity.csproj" />
+    <ProjectReference Include="..\..\Identity\SchoolSaas.Infrastructure.Identity\SchoolSaas.Infrastructure.Identity.csproj" />
+    <ProjectReference Include="..\..\Identity\SchoolSaas.Web.Identity\SchoolSaas.Web.Identity.csproj" />
+    <ProjectReference Include="..\..\SchoolSaas.Application.Common\SchoolSaas.Application.Common.csproj" />
+    <ProjectReference Include="..\..\SchoolSaas.Domain.Common\SchoolSaas.Domain.Common.csproj" />
+    <ProjectReference Include="..\..\SchoolSaas.Infrastructure.Common\SchoolSaas.Infrastructure.Common.csproj" />
+    <ProjectReference Include="..\..\SchoolSaas.Web.Common\SchoolSaas.Web.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>

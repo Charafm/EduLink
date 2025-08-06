@@ -1,0 +1,6 @@
+@SchoolSaas.Web.Edulink_HostAddress = http://localhost:5052
+
+GET {{SchoolSaas.Web.Edulink_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

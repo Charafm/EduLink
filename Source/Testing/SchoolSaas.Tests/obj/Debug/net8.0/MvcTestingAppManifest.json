@@ -1,0 +1,14 @@
+{
+  "SchoolSaas.Application.Backoffice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Application.Backoffice",
+  "SchoolSaas.Application.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\SchoolSaas.Application.Common",
+  "SchoolSaas.Application.Identity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Application.Identity",
+  "SchoolSaas.Domain.Backoffice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Domain.Backoffice",
+  "SchoolSaas.Domain.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\SchoolSaas.Domain.Common",
+  "SchoolSaas.Domain.Edulink, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Edulink\\SchoolSaas.Domain.Edulink",
+  "SchoolSaas.Infrastructure.Backoffice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Infrastructure.Backoffice",
+  "SchoolSaas.Infrastructure.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\SchoolSaas.Infrastructure.Common",
+  "SchoolSaas.Infrastructure.Identity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Infrastructure.Identity",
+  "SchoolSaas.Web.Backoffice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Backoffice\\SchoolSaas.Web.Backoffice",
+  "SchoolSaas.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\SchoolSaas.Web.Common",
+  "SchoolSaas.Web.Identity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "G:\\repos\\SchoolSaas\\SchoolSaas\\Source\\Identity\\SchoolSaas.Web.Identity"
+}

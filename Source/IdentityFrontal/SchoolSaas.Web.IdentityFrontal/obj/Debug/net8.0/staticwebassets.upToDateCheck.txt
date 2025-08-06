@@ -1,0 +1,1 @@
+wwwroot\swagger\v1\swagger.json

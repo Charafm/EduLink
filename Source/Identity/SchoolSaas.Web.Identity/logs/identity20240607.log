@@ -1,0 +1,825 @@
+2024-06-07 09:18:02.816 +01:00 [INF] Seeding database...
+2024-06-07 09:18:02.855 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 09:18:03.542 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 09:18:03.544 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 09:18:03.544 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 09:18:03.545 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 09:46:10.348 +01:00 [INF] Seeding database...
+2024-06-07 09:46:10.375 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 09:46:10.922 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 09:46:10.923 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 09:46:10.924 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 09:46:10.924 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:27:10.329 +01:00 [INF] Seeding database...
+2024-06-07 11:27:10.362 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 11:27:10.906 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:27:10.908 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:27:10.908 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:27:10.908 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:28:30.936 +01:00 [INF] Seeding database...
+2024-06-07 11:28:30.961 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 11:28:31.438 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:28:31.440 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:28:31.440 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:28:31.440 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:31:17.565 +01:00 [INF] Seeding database...
+2024-06-07 11:31:17.590 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 11:31:18.038 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:31:18.040 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:31:18.040 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:31:18.040 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:51:38.503 +01:00 [INF] Seeding database...
+2024-06-07 11:51:38.538 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 11:51:39.117 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:51:39.118 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:51:39.119 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:51:39.119 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:51:49.377 +01:00 [INF] Seeding database...
+2024-06-07 11:51:49.408 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 11:51:50.433 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:51:50.436 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:51:50.437 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:51:50.438 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:51:54.624 +01:00 [INF] Now listening on: http://localhost:4480
+2024-06-07 11:51:54.626 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-07 11:51:54.627 +01:00 [INF] Hosting environment: Development
+2024-06-07 11:51:54.628 +01:00 [INF] Content root path: C:\Users\chara\source\repos\SchoolSaas\src\SchoolSaas.Web.IdentityService
+2024-06-07 11:51:56.726 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:51:56.865 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:51:57.011 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:51:57.013 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:51:57.115 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:51:57.124 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-06-07 11:51:57.358 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:51:57.362 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:51:57.364 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:51:57.392 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:51:57.401 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:51:57.416 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:51:57.422 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:51:57.423 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:51:57.424 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:51:57.425 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:51:57.427 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:51:57.482 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:51:57.484 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:51:57.485 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:51:57.486 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:51:57.487 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:51:57.488 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:51:57.492 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:51:57.494 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:51:57.496 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:51:57.497 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:51:57.498 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:51:57.499 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:51:57.634 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:52:00.086 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:52:00.089 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:52:00.091 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2024-06-07 11:52:00.095 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:52:00.097 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:52:00.109 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ExtractPostRequest`1[[OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:00.113 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateClientAuthenticationMethod`1[[OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:00.115 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ExtractBasicAuthenticationCredentials`1[[OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:00.119 +01:00 [INF] The token request was successfully extracted: {
+  "scope": "EConculsatMA",
+  "grant_type": "password",
+  "client_id": "m2m.SchoolSaas.Backoffice",
+  "client_secret": "[redacted]",
+  "username": "SuperAdmin@eConsulatMA",
+  "password": "[redacted]"
+}.
+2024-06-07 11:52:00.120 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ExtractTokenRequest.
+2024-06-07 11:52:00.123 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateGrantType.
+2024-06-07 11:52:00.125 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateClientIdParameter.
+2024-06-07 11:52:00.126 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateAuthorizationCodeParameter.
+2024-06-07 11:52:00.128 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateClientCredentialsParameters.
+2024-06-07 11:52:00.130 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateDeviceCodeParameter.
+2024-06-07 11:52:00.131 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateRefreshTokenParameter.
+2024-06-07 11:52:00.133 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateResourceOwnerCredentialsParameters.
+2024-06-07 11:52:00.134 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateScopeParameter.
+2024-06-07 11:52:00.135 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateProofKeyForCodeExchangeParameters.
+2024-06-07 11:52:00.138 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateAuthenticationDemand.
+2024-06-07 11:52:00.140 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+EvaluateValidatedTokens.
+2024-06-07 11:52:00.143 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ResolveValidatedTokens.
+2024-06-07 11:52:00.145 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateRequiredTokens.
+2024-06-07 11:52:00.148 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateClientAssertion.
+2024-06-07 11:52:00.237 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateClientId.
+2024-06-07 11:52:00.241 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateClientType.
+2024-06-07 11:52:00.257 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateClientSecret.
+2024-06-07 11:52:00.259 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ResolveHostAuthenticationProperties.
+2024-06-07 11:52:00.262 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateAuthentication.
+2024-06-07 11:52:00.267 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateEndpointPermissions.
+2024-06-07 11:52:00.269 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateGrantTypePermissions.
+2024-06-07 11:52:00.272 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateScopePermissions.
+2024-06-07 11:52:00.274 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateProofKeyForCodeExchangeRequirement.
+2024-06-07 11:52:00.275 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidatePresenters.
+2024-06-07 11:52:00.276 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateRedirectUri.
+2024-06-07 11:52:00.278 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateCodeVerifier.
+2024-06-07 11:52:00.279 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateGrantedScopes.
+2024-06-07 11:52:00.281 +01:00 [INF] The token request was successfully validated.
+2024-06-07 11:52:00.282 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateTokenRequest.
+2024-06-07 11:52:00.284 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+AttachPrincipal.
+2024-06-07 11:52:00.286 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+EnablePassthroughMode`2[[OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f],[OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlerFilters+RequireTokenEndpointPassthroughEnabled, OpenIddict.Server.AspNetCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:00.287 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext was marked as skipped by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+EnablePassthroughMode`2[[OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f],[OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlerFilters+RequireTokenEndpointPassthroughEnabled, OpenIddict.Server.AspNetCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:00.288 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+HandleTokenRequest.
+2024-06-07 11:52:00.289 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was marked as skipped by OpenIddict.Server.OpenIddictServerHandlers+Exchange+HandleTokenRequest.
+2024-06-07 11:52:00.291 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:52:00.292 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:52:00.398 +01:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-06-07 11:52:01.047 +01:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-06-07 11:52:01.327 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveHostSignInProperties.
+2024-06-07 11:52:01.332 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateSignInDemand.
+2024-06-07 11:52:01.338 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+RedeemTokenEntry.
+2024-06-07 11:52:01.340 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+RestoreInternalClaims.
+2024-06-07 11:52:01.342 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachHostProperties.
+2024-06-07 11:52:01.343 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachDefaultScopes.
+2024-06-07 11:52:01.345 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachDefaultPresenters.
+2024-06-07 11:52:01.346 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferResources.
+2024-06-07 11:52:01.348 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+EvaluateGeneratedTokens.
+2024-06-07 11:52:01.350 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachAuthorization.
+2024-06-07 11:52:01.356 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+PrepareAccessTokenPrincipal.
+2024-06-07 11:52:01.359 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+GenerateTokenContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Protection+AttachSecurityCredentials.
+2024-06-07 11:52:01.570 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+GenerateTokenContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Protection+CreateTokenEntry.
+2024-06-07 11:52:01.603 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+GenerateTokenContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Protection+GenerateIdentityModelToken.
+2024-06-07 11:52:01.605 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+GenerateTokenContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Protection+BeautifyToken.
+2024-06-07 11:52:01.606 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+GenerateAccessToken.
+2024-06-07 11:52:01.608 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachCustomSignInParameters.
+2024-06-07 11:52:01.611 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachSignInParameters.
+2024-06-07 11:52:01.615 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+NormalizeErrorResponse.
+2024-06-07 11:52:01.616 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachHttpResponseCode`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:01.618 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachCacheControlHeader`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:01.620 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachWwwAuthenticateHeader`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:01.622 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "access_token": "[redacted]",
+  "token_type": "Bearer",
+  "expires_in": 431999
+}.
+2024-06-07 11:52:01.624 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessJsonResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:01.625 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was marked as handled by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessJsonResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:01.627 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ApplyTokenResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:01.628 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was marked as handled by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ApplyTokenResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:10.460 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:52:10.465 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:52:10.467 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:52:10.468 +01:00 [INF] The request URI matched a server endpoint: "Configuration".
+2024-06-07 11:52:10.470 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:52:10.471 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:52:10.475 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ExtractConfigurationRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ExtractGetRequest`1[[OpenIddict.Server.OpenIddictServerEvents+ExtractConfigurationRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:10.476 +01:00 [INF] The configuration request was successfully extracted: {}.
+2024-06-07 11:52:10.477 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ExtractConfigurationRequest.
+2024-06-07 11:52:10.479 +01:00 [INF] The configuration request was successfully validated.
+2024-06-07 11:52:10.479 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ValidateConfigurationRequest.
+2024-06-07 11:52:10.484 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachIssuer.
+2024-06-07 11:52:10.486 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachEndpoints.
+2024-06-07 11:52:10.487 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachGrantTypes.
+2024-06-07 11:52:10.488 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachResponseModes.
+2024-06-07 11:52:10.489 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachResponseTypes.
+2024-06-07 11:52:10.491 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachClientAuthenticationMethods.
+2024-06-07 11:52:10.492 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachCodeChallengeMethods.
+2024-06-07 11:52:10.493 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachScopes.
+2024-06-07 11:52:10.494 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachClaims.
+2024-06-07 11:52:10.495 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachSubjectTypes.
+2024-06-07 11:52:10.497 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachSigningAlgorithms.
+2024-06-07 11:52:10.499 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachAdditionalMetadata.
+2024-06-07 11:52:10.500 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+HandleConfigurationRequest.
+2024-06-07 11:52:10.503 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachHttpResponseCode`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:10.504 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachWwwAuthenticateHeader`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:10.505 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "issuer": "http://localhost:4480/",
+  "authorization_endpoint": "http://localhost:4480/connect/authorize",
+  "token_endpoint": "http://localhost:4480/connect/token",
+  "introspection_endpoint": "http://localhost:4480/connect/introspect",
+  "end_session_endpoint": "http://localhost:4480/connect/logout",
+  "userinfo_endpoint": "http://localhost:4480/connect/userinfo",
+  "device_authorization_endpoint": "http://localhost:4480/connect/device",
+  "jwks_uri": "http://localhost:4480/.well-known/jwks",
+  "grant_types_supported": [
+    "authorization_code",
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "implicit",
+    "refresh_token",
+    "password"
+  ],
+  "response_types_supported": [
+    "code",
+    "code id_token",
+    "code id_token token",
+    "code token"
+  ],
+  "response_modes_supported": [
+    "form_post",
+    "fragment",
+    "query"
+  ],
+  "scopes_supported": [
+    "openid",
+    "offline_access",
+    "email",
+    "profile",
+    "roles",
+    "EConculsatMA",
+    "BackOffice"
+  ],
+  "claims_supported": [
+    "aud",
+    "exp",
+    "iat",
+    "iss",
+    "sub"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "device_authorization_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "claims_parameter_supported": false,
+  "request_parameter_supported": false,
+  "request_uri_parameter_supported": false,
+  "authorization_response_iss_parameter_supported": true
+}.
+2024-06-07 11:52:10.507 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessJsonResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:10.508 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext was marked as handled by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessJsonResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:10.509 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ApplyConfigurationResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:52:10.510 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was marked as handled by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ApplyConfigurationResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:07.115 +01:00 [INF] Seeding database...
+2024-06-07 11:54:07.139 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 11:54:07.600 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:54:07.601 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:54:07.601 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:54:07.602 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:54:13.136 +01:00 [INF] Seeding database...
+2024-06-07 11:54:13.170 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 11:54:13.835 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:54:13.838 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:54:13.840 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:54:13.841 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 11:54:16.558 +01:00 [INF] Now listening on: http://localhost:4480
+2024-06-07 11:54:16.561 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-07 11:54:16.563 +01:00 [INF] Hosting environment: Development
+2024-06-07 11:54:16.564 +01:00 [INF] Content root path: C:\Users\chara\source\repos\SchoolSaas\src\SchoolSaas.Web.IdentityService
+2024-06-07 11:54:17.885 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:54:18.027 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:54:18.157 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:54:18.162 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:54:18.249 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:54:18.256 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-06-07 11:54:18.441 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:54:18.444 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:54:18.447 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:54:18.472 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:54:18.479 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:54:18.491 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:54:18.499 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:54:18.500 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:54:18.502 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:54:18.503 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:54:18.505 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:54:18.546 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:54:18.548 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:54:18.549 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:54:18.551 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:54:18.552 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:54:18.553 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:54:18.556 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:54:18.557 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:54:18.559 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:54:18.560 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:54:18.561 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:54:18.562 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:54:18.610 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:54:44.777 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:54:44.787 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:54:44.788 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:54:44.790 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:54:44.792 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:54:44.793 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:54:44.798 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:54:44.800 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-06-07 11:54:44.801 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-06-07 11:54:44.803 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-06-07 11:54:44.805 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-06-07 11:54:44.807 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-06-07 11:54:44.809 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was marked as rejected by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-06-07 11:54:44.811 +01:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was not authenticated.
+2024-06-07 11:54:44.818 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessChallengeContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveHostChallengeProperties.
+2024-06-07 11:54:44.822 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessChallengeContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+AttachHostChallengeError.
+2024-06-07 11:54:44.826 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessChallengeContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+AttachDefaultChallengeError.
+2024-06-07 11:54:44.828 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessChallengeContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+AttachCustomChallengeParameters.
+2024-06-07 11:54:44.830 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessChallengeContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+AttachHttpResponseCode`1[[OpenIddict.Validation.OpenIddictValidationEvents+ProcessChallengeContext, OpenIddict.Validation, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:44.831 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessChallengeContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+AttachCacheControlHeader`1[[OpenIddict.Validation.OpenIddictValidationEvents+ProcessChallengeContext, OpenIddict.Validation, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:44.835 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessChallengeContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+AttachWwwAuthenticateHeader`1[[OpenIddict.Validation.OpenIddictValidationEvents+ProcessChallengeContext, OpenIddict.Validation, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:44.838 +01:00 [INF] The response was successfully returned as a challenge response: {
+  "error": "missing_token",
+  "error_description": "The security token is missing.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2000"
+}.
+2024-06-07 11:54:44.839 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessChallengeContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ProcessChallengeErrorResponse`1[[OpenIddict.Validation.OpenIddictValidationEvents+ProcessChallengeContext, OpenIddict.Validation, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:44.841 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessChallengeContext was marked as handled by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ProcessChallengeErrorResponse`1[[OpenIddict.Validation.OpenIddictValidationEvents+ProcessChallengeContext, OpenIddict.Validation, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:44.843 +01:00 [INF] AuthenticationScheme: OpenIddict.Validation.AspNetCore was challenged.
+2024-06-07 11:54:49.278 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:54:49.280 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:54:49.282 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2024-06-07 11:54:49.285 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:54:49.287 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:54:49.298 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ExtractPostRequest`1[[OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:49.300 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateClientAuthenticationMethod`1[[OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:49.302 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ExtractBasicAuthenticationCredentials`1[[OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:49.304 +01:00 [INF] The token request was successfully extracted: {
+  "scope": "EConculsatMA",
+  "grant_type": "password",
+  "client_id": "m2m.SchoolSaas.Backoffice",
+  "client_secret": "[redacted]",
+  "username": "SuperAdmin@eConsulatMA",
+  "password": "[redacted]"
+}.
+2024-06-07 11:54:49.305 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ExtractTokenRequest.
+2024-06-07 11:54:49.309 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateGrantType.
+2024-06-07 11:54:49.311 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateClientIdParameter.
+2024-06-07 11:54:49.312 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateAuthorizationCodeParameter.
+2024-06-07 11:54:49.314 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateClientCredentialsParameters.
+2024-06-07 11:54:49.315 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateDeviceCodeParameter.
+2024-06-07 11:54:49.317 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateRefreshTokenParameter.
+2024-06-07 11:54:49.318 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateResourceOwnerCredentialsParameters.
+2024-06-07 11:54:49.319 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateScopeParameter.
+2024-06-07 11:54:49.321 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateProofKeyForCodeExchangeParameters.
+2024-06-07 11:54:49.323 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateAuthenticationDemand.
+2024-06-07 11:54:49.327 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+EvaluateValidatedTokens.
+2024-06-07 11:54:49.330 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ResolveValidatedTokens.
+2024-06-07 11:54:49.331 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateRequiredTokens.
+2024-06-07 11:54:49.333 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateClientAssertion.
+2024-06-07 11:54:49.417 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateClientId.
+2024-06-07 11:54:49.422 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateClientType.
+2024-06-07 11:54:49.437 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateClientSecret.
+2024-06-07 11:54:49.440 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ResolveHostAuthenticationProperties.
+2024-06-07 11:54:49.441 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateAuthentication.
+2024-06-07 11:54:49.446 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateEndpointPermissions.
+2024-06-07 11:54:49.448 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateGrantTypePermissions.
+2024-06-07 11:54:49.450 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateScopePermissions.
+2024-06-07 11:54:49.452 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateProofKeyForCodeExchangeRequirement.
+2024-06-07 11:54:49.454 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidatePresenters.
+2024-06-07 11:54:49.455 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateRedirectUri.
+2024-06-07 11:54:49.457 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateCodeVerifier.
+2024-06-07 11:54:49.458 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateGrantedScopes.
+2024-06-07 11:54:49.459 +01:00 [INF] The token request was successfully validated.
+2024-06-07 11:54:49.460 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateTokenRequest.
+2024-06-07 11:54:49.463 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+AttachPrincipal.
+2024-06-07 11:54:49.464 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+EnablePassthroughMode`2[[OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f],[OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlerFilters+RequireTokenEndpointPassthroughEnabled, OpenIddict.Server.AspNetCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:49.465 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext was marked as skipped by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+EnablePassthroughMode`2[[OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f],[OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlerFilters+RequireTokenEndpointPassthroughEnabled, OpenIddict.Server.AspNetCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:49.466 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+HandleTokenRequest.
+2024-06-07 11:54:49.467 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was marked as skipped by OpenIddict.Server.OpenIddictServerHandlers+Exchange+HandleTokenRequest.
+2024-06-07 11:54:49.470 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:54:49.471 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:54:49.566 +01:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-06-07 11:54:50.023 +01:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-06-07 11:54:50.257 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveHostSignInProperties.
+2024-06-07 11:54:50.262 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateSignInDemand.
+2024-06-07 11:54:50.268 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+RedeemTokenEntry.
+2024-06-07 11:54:50.270 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+RestoreInternalClaims.
+2024-06-07 11:54:50.271 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachHostProperties.
+2024-06-07 11:54:50.273 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachDefaultScopes.
+2024-06-07 11:54:50.274 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachDefaultPresenters.
+2024-06-07 11:54:50.275 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferResources.
+2024-06-07 11:54:50.278 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+EvaluateGeneratedTokens.
+2024-06-07 11:54:50.281 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachAuthorization.
+2024-06-07 11:54:50.287 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+PrepareAccessTokenPrincipal.
+2024-06-07 11:54:50.290 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+GenerateTokenContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Protection+AttachSecurityCredentials.
+2024-06-07 11:54:50.520 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+GenerateTokenContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Protection+CreateTokenEntry.
+2024-06-07 11:54:50.547 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+GenerateTokenContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Protection+GenerateIdentityModelToken.
+2024-06-07 11:54:50.549 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+GenerateTokenContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Protection+BeautifyToken.
+2024-06-07 11:54:50.551 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+GenerateAccessToken.
+2024-06-07 11:54:50.552 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachCustomSignInParameters.
+2024-06-07 11:54:50.554 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachSignInParameters.
+2024-06-07 11:54:50.557 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+NormalizeErrorResponse.
+2024-06-07 11:54:50.558 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachHttpResponseCode`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:50.560 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachCacheControlHeader`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:50.563 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachWwwAuthenticateHeader`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:50.565 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "access_token": "[redacted]",
+  "token_type": "Bearer",
+  "expires_in": 431999
+}.
+2024-06-07 11:54:50.567 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessJsonResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:50.568 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was marked as handled by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessJsonResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:50.569 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ApplyTokenResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:50.570 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was marked as handled by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ApplyTokenResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:54:59.473 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:54:59.476 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:54:59.477 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:54:59.481 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:54:59.482 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:54:59.484 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:54:59.486 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:54:59.488 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-06-07 11:54:59.489 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-06-07 11:54:59.490 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-06-07 11:54:59.491 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-06-07 11:54:59.492 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-06-07 11:54:59.494 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ResolveServerConfiguration.
+2024-06-07 11:54:59.496 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ResolveIntrospectionEndpoint.
+2024-06-07 11:54:59.498 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateIntrospectionRequest.
+2024-06-07 11:54:59.505 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ResolveTokenValidationParameters.
+2024-06-07 11:54:59.540 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateIdentityModelToken.
+2024-06-07 11:54:59.541 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+NormalizeScopeClaims.
+2024-06-07 11:54:59.543 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+MapInternalClaims.
+2024-06-07 11:54:59.544 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidatePrincipal.
+2024-06-07 11:54:59.545 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateExpirationDate.
+2024-06-07 11:54:59.547 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateAudience.
+2024-06-07 11:54:59.548 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateAccessToken.
+2024-06-07 11:54:59.550 +01:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was successfully authenticated.
+2024-06-07 11:54:59.582 +01:00 [INF] SchoolSaas Request: GetUserPermissionsQuery 1605fdee-1f66-4892-aea3-b8d0614474b2 superadmin@eConsulatMA
+2024-06-07 11:55:00.099 +01:00 [WRN] SchoolSaas Long Running Request: GetUserPermissionsQuery (509 milliseconds) 1605fdee-1f66-4892-aea3-b8d0614474b2 superadmin@eConsulatMA
+2024-06-07 11:55:05.956 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:55:05.958 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:55:05.960 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:55:05.961 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:55:05.962 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:55:05.964 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:55:05.966 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:55:05.968 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-06-07 11:55:05.969 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-06-07 11:55:05.970 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-06-07 11:55:05.971 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-06-07 11:55:05.972 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-06-07 11:55:05.973 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ResolveServerConfiguration.
+2024-06-07 11:55:05.974 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ResolveIntrospectionEndpoint.
+2024-06-07 11:55:05.975 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateIntrospectionRequest.
+2024-06-07 11:55:05.976 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ResolveTokenValidationParameters.
+2024-06-07 11:55:05.977 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateIdentityModelToken.
+2024-06-07 11:55:05.978 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+NormalizeScopeClaims.
+2024-06-07 11:55:05.980 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+MapInternalClaims.
+2024-06-07 11:55:05.982 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidatePrincipal.
+2024-06-07 11:55:05.983 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateExpirationDate.
+2024-06-07 11:55:05.985 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateAudience.
+2024-06-07 11:55:05.987 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateAccessToken.
+2024-06-07 11:55:05.988 +01:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was successfully authenticated.
+2024-06-07 11:55:05.995 +01:00 [INF] SchoolSaas Request: GetAllPermissionsQuery 1605fdee-1f66-4892-aea3-b8d0614474b2 superadmin@eConsulatMA
+2024-06-07 11:55:21.326 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:55:21.329 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:55:21.331 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:55:21.332 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:55:21.333 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:55:21.334 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:55:21.335 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:55:21.336 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-06-07 11:55:21.337 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-06-07 11:55:21.338 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-06-07 11:55:21.339 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-06-07 11:55:21.340 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-06-07 11:55:21.341 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ResolveServerConfiguration.
+2024-06-07 11:55:21.343 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ResolveIntrospectionEndpoint.
+2024-06-07 11:55:21.343 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateIntrospectionRequest.
+2024-06-07 11:55:21.345 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ResolveTokenValidationParameters.
+2024-06-07 11:55:21.346 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateIdentityModelToken.
+2024-06-07 11:55:21.347 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+NormalizeScopeClaims.
+2024-06-07 11:55:21.348 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+MapInternalClaims.
+2024-06-07 11:55:21.349 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidatePrincipal.
+2024-06-07 11:55:21.350 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateExpirationDate.
+2024-06-07 11:55:21.351 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateAudience.
+2024-06-07 11:55:21.352 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateAccessToken.
+2024-06-07 11:55:21.353 +01:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was successfully authenticated.
+2024-06-07 11:55:21.380 +01:00 [INF] SchoolSaas Request: CreatePermissionCommand 1605fdee-1f66-4892-aea3-b8d0614474b2 superadmin@eConsulatMA
+2024-06-07 11:55:26.418 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:55:26.420 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:55:26.421 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:55:26.423 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:55:26.425 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:55:26.426 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:55:26.427 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:55:26.428 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-06-07 11:55:26.429 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-06-07 11:55:26.430 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-06-07 11:55:26.431 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-06-07 11:55:26.432 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-06-07 11:55:26.433 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ResolveServerConfiguration.
+2024-06-07 11:55:26.434 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ResolveIntrospectionEndpoint.
+2024-06-07 11:55:26.436 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateIntrospectionRequest.
+2024-06-07 11:55:26.437 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ResolveTokenValidationParameters.
+2024-06-07 11:55:26.438 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateIdentityModelToken.
+2024-06-07 11:55:26.439 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+NormalizeScopeClaims.
+2024-06-07 11:55:26.440 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+MapInternalClaims.
+2024-06-07 11:55:26.441 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidatePrincipal.
+2024-06-07 11:55:26.443 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateExpirationDate.
+2024-06-07 11:55:26.444 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateAudience.
+2024-06-07 11:55:26.445 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateAccessToken.
+2024-06-07 11:55:26.446 +01:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was successfully authenticated.
+2024-06-07 11:55:26.447 +01:00 [INF] SchoolSaas Request: CreatePermissionCommand 1605fdee-1f66-4892-aea3-b8d0614474b2 superadmin@eConsulatMA
+2024-06-07 11:55:30.189 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:55:30.190 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:55:30.191 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:55:30.193 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:55:30.195 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:55:30.196 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:55:30.196 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:55:30.197 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-06-07 11:55:30.199 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-06-07 11:55:30.199 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-06-07 11:55:30.201 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-06-07 11:55:30.202 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-06-07 11:55:30.203 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ResolveServerConfiguration.
+2024-06-07 11:55:30.205 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ResolveIntrospectionEndpoint.
+2024-06-07 11:55:30.206 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateIntrospectionRequest.
+2024-06-07 11:55:30.207 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ResolveTokenValidationParameters.
+2024-06-07 11:55:30.209 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateIdentityModelToken.
+2024-06-07 11:55:30.210 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+NormalizeScopeClaims.
+2024-06-07 11:55:30.211 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+MapInternalClaims.
+2024-06-07 11:55:30.212 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidatePrincipal.
+2024-06-07 11:55:30.213 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateExpirationDate.
+2024-06-07 11:55:30.214 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateAudience.
+2024-06-07 11:55:30.215 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateAccessToken.
+2024-06-07 11:55:30.216 +01:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was successfully authenticated.
+2024-06-07 11:55:30.217 +01:00 [INF] SchoolSaas Request: GetAllPermissionsQuery 1605fdee-1f66-4892-aea3-b8d0614474b2 superadmin@eConsulatMA
+2024-06-07 11:56:06.827 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:56:06.832 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:56:06.833 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:56:06.834 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:56:06.836 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:56:06.837 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:56:06.838 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:56:06.839 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-06-07 11:56:06.840 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-06-07 11:56:06.841 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-06-07 11:56:06.842 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-06-07 11:56:06.843 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-06-07 11:56:06.844 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ResolveServerConfiguration.
+2024-06-07 11:56:06.845 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ResolveIntrospectionEndpoint.
+2024-06-07 11:56:06.846 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateIntrospectionRequest.
+2024-06-07 11:56:06.847 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ResolveTokenValidationParameters.
+2024-06-07 11:56:06.848 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateIdentityModelToken.
+2024-06-07 11:56:06.849 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+NormalizeScopeClaims.
+2024-06-07 11:56:06.850 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+MapInternalClaims.
+2024-06-07 11:56:06.851 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidatePrincipal.
+2024-06-07 11:56:06.852 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateExpirationDate.
+2024-06-07 11:56:06.853 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateAudience.
+2024-06-07 11:56:06.854 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateAccessToken.
+2024-06-07 11:56:06.856 +01:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was successfully authenticated.
+2024-06-07 11:56:06.869 +01:00 [INF] SchoolSaas Request: AssignPermissionsToUserCommand 1605fdee-1f66-4892-aea3-b8d0614474b2 superadmin@eConsulatMA
+2024-06-07 11:56:15.617 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:56:15.619 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:56:15.621 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:56:15.622 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:56:15.623 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:56:15.625 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:56:15.626 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:56:15.627 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-06-07 11:56:15.628 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-06-07 11:56:15.629 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-06-07 11:56:15.630 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-06-07 11:56:15.631 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-06-07 11:56:15.632 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ResolveServerConfiguration.
+2024-06-07 11:56:15.633 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ResolveIntrospectionEndpoint.
+2024-06-07 11:56:15.634 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateIntrospectionRequest.
+2024-06-07 11:56:15.635 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ResolveTokenValidationParameters.
+2024-06-07 11:56:15.637 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateIdentityModelToken.
+2024-06-07 11:56:15.638 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+NormalizeScopeClaims.
+2024-06-07 11:56:15.638 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+MapInternalClaims.
+2024-06-07 11:56:15.639 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidatePrincipal.
+2024-06-07 11:56:15.640 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateExpirationDate.
+2024-06-07 11:56:15.642 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ValidateTokenContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+Protection+ValidateAudience.
+2024-06-07 11:56:15.643 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateAccessToken.
+2024-06-07 11:56:15.644 +01:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was successfully authenticated.
+2024-06-07 11:56:15.645 +01:00 [INF] SchoolSaas Request: GetUserPermissionsQuery 1605fdee-1f66-4892-aea3-b8d0614474b2 superadmin@eConsulatMA
+2024-06-07 11:56:18.190 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:56:18.193 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:56:18.194 +01:00 [INF] The request URI matched a server endpoint: "Token".
+2024-06-07 11:56:18.195 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:56:18.196 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:56:18.197 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ExtractPostRequest`1[[OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:18.198 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateClientAuthenticationMethod`1[[OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:18.199 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ExtractBasicAuthenticationCredentials`1[[OpenIddict.Server.OpenIddictServerEvents+ExtractTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:18.200 +01:00 [INF] The token request was successfully extracted: {
+  "scope": "EConculsatMA",
+  "grant_type": "password",
+  "client_id": "m2m.SchoolSaas.Backoffice",
+  "client_secret": "[redacted]",
+  "username": "SuperAdmin@eConsulatMA",
+  "password": "[redacted]"
+}.
+2024-06-07 11:56:18.201 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ExtractTokenRequest.
+2024-06-07 11:56:18.202 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateGrantType.
+2024-06-07 11:56:18.203 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateClientIdParameter.
+2024-06-07 11:56:18.204 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateAuthorizationCodeParameter.
+2024-06-07 11:56:18.205 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateClientCredentialsParameters.
+2024-06-07 11:56:18.206 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateDeviceCodeParameter.
+2024-06-07 11:56:18.207 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateRefreshTokenParameter.
+2024-06-07 11:56:18.208 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateResourceOwnerCredentialsParameters.
+2024-06-07 11:56:18.209 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateScopeParameter.
+2024-06-07 11:56:18.211 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateProofKeyForCodeExchangeParameters.
+2024-06-07 11:56:18.212 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateAuthenticationDemand.
+2024-06-07 11:56:18.213 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+EvaluateValidatedTokens.
+2024-06-07 11:56:18.214 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ResolveValidatedTokens.
+2024-06-07 11:56:18.215 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateRequiredTokens.
+2024-06-07 11:56:18.216 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateClientAssertion.
+2024-06-07 11:56:18.263 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateClientId.
+2024-06-07 11:56:18.265 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateClientType.
+2024-06-07 11:56:18.274 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateClientSecret.
+2024-06-07 11:56:18.275 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ResolveHostAuthenticationProperties.
+2024-06-07 11:56:18.277 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateAuthentication.
+2024-06-07 11:56:18.278 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateEndpointPermissions.
+2024-06-07 11:56:18.280 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateGrantTypePermissions.
+2024-06-07 11:56:18.281 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateScopePermissions.
+2024-06-07 11:56:18.282 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateProofKeyForCodeExchangeRequirement.
+2024-06-07 11:56:18.283 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidatePresenters.
+2024-06-07 11:56:18.285 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateRedirectUri.
+2024-06-07 11:56:18.286 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateCodeVerifier.
+2024-06-07 11:56:18.288 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateGrantedScopes.
+2024-06-07 11:56:18.289 +01:00 [INF] The token request was successfully validated.
+2024-06-07 11:56:18.290 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ValidateTokenRequest.
+2024-06-07 11:56:18.291 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+AttachPrincipal.
+2024-06-07 11:56:18.293 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+EnablePassthroughMode`2[[OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f],[OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlerFilters+RequireTokenEndpointPassthroughEnabled, OpenIddict.Server.AspNetCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:18.294 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext was marked as skipped by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+EnablePassthroughMode`2[[OpenIddict.Server.OpenIddictServerEvents+HandleTokenRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f],[OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlerFilters+RequireTokenEndpointPassthroughEnabled, OpenIddict.Server.AspNetCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:18.295 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+HandleTokenRequest.
+2024-06-07 11:56:18.296 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was marked as skipped by OpenIddict.Server.OpenIddictServerHandlers+Exchange+HandleTokenRequest.
+2024-06-07 11:56:18.298 +01:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:56:18.299 +01:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-06-07 11:56:18.804 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveHostSignInProperties.
+2024-06-07 11:56:18.806 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+ValidateSignInDemand.
+2024-06-07 11:56:18.808 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+RedeemTokenEntry.
+2024-06-07 11:56:18.809 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+RestoreInternalClaims.
+2024-06-07 11:56:18.811 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachHostProperties.
+2024-06-07 11:56:18.812 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachDefaultScopes.
+2024-06-07 11:56:18.813 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachDefaultPresenters.
+2024-06-07 11:56:18.814 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferResources.
+2024-06-07 11:56:18.815 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+EvaluateGeneratedTokens.
+2024-06-07 11:56:18.816 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachAuthorization.
+2024-06-07 11:56:18.817 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+PrepareAccessTokenPrincipal.
+2024-06-07 11:56:18.818 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+GenerateTokenContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Protection+AttachSecurityCredentials.
+2024-06-07 11:56:18.867 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+GenerateTokenContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Protection+CreateTokenEntry.
+2024-06-07 11:56:18.872 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+GenerateTokenContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Protection+GenerateIdentityModelToken.
+2024-06-07 11:56:18.873 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+GenerateTokenContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Protection+BeautifyToken.
+2024-06-07 11:56:18.874 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+GenerateAccessToken.
+2024-06-07 11:56:18.875 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachCustomSignInParameters.
+2024-06-07 11:56:18.877 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachSignInParameters.
+2024-06-07 11:56:18.878 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+NormalizeErrorResponse.
+2024-06-07 11:56:18.879 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachHttpResponseCode`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:18.880 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachCacheControlHeader`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:18.881 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachWwwAuthenticateHeader`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:18.882 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "access_token": "[redacted]",
+  "token_type": "Bearer",
+  "expires_in": 431999
+}.
+2024-06-07 11:56:18.883 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessJsonResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:18.884 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext was marked as handled by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessJsonResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyTokenResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:18.885 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ApplyTokenResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:18.886 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext was marked as handled by OpenIddict.Server.OpenIddictServerHandlers+Exchange+ApplyTokenResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessSignInContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:26.479 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:56:26.485 +01:00 [WRN] Unable to identify tenant from query string. Falling back to default.
+2024-06-07 11:56:26.486 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-06-07 11:56:26.487 +01:00 [INF] The request URI matched a server endpoint: "Configuration".
+2024-06-07 11:56:26.488 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-06-07 11:56:26.489 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-06-07 11:56:26.492 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ExtractConfigurationRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ExtractGetRequest`1[[OpenIddict.Server.OpenIddictServerEvents+ExtractConfigurationRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:26.494 +01:00 [INF] The configuration request was successfully extracted: {}.
+2024-06-07 11:56:26.494 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ExtractConfigurationRequest.
+2024-06-07 11:56:26.497 +01:00 [INF] The configuration request was successfully validated.
+2024-06-07 11:56:26.498 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ValidateConfigurationRequest.
+2024-06-07 11:56:26.501 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachIssuer.
+2024-06-07 11:56:26.504 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachEndpoints.
+2024-06-07 11:56:26.505 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachGrantTypes.
+2024-06-07 11:56:26.506 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachResponseModes.
+2024-06-07 11:56:26.507 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachResponseTypes.
+2024-06-07 11:56:26.509 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachClientAuthenticationMethods.
+2024-06-07 11:56:26.510 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachCodeChallengeMethods.
+2024-06-07 11:56:26.511 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachScopes.
+2024-06-07 11:56:26.513 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachClaims.
+2024-06-07 11:56:26.514 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachSubjectTypes.
+2024-06-07 11:56:26.515 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachSigningAlgorithms.
+2024-06-07 11:56:26.517 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachAdditionalMetadata.
+2024-06-07 11:56:26.518 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+HandleConfigurationRequest.
+2024-06-07 11:56:26.521 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachHttpResponseCode`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:26.522 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachWwwAuthenticateHeader`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:26.523 +01:00 [INF] The response was successfully returned as a JSON document: {
+  "issuer": "http://localhost:4480/",
+  "authorization_endpoint": "http://localhost:4480/connect/authorize",
+  "token_endpoint": "http://localhost:4480/connect/token",
+  "introspection_endpoint": "http://localhost:4480/connect/introspect",
+  "end_session_endpoint": "http://localhost:4480/connect/logout",
+  "userinfo_endpoint": "http://localhost:4480/connect/userinfo",
+  "device_authorization_endpoint": "http://localhost:4480/connect/device",
+  "jwks_uri": "http://localhost:4480/.well-known/jwks",
+  "grant_types_supported": [
+    "authorization_code",
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "implicit",
+    "refresh_token",
+    "password"
+  ],
+  "response_types_supported": [
+    "code",
+    "code id_token",
+    "code id_token token",
+    "code token"
+  ],
+  "response_modes_supported": [
+    "form_post",
+    "fragment",
+    "query"
+  ],
+  "scopes_supported": [
+    "openid",
+    "offline_access",
+    "email",
+    "profile",
+    "roles",
+    "EConculsatMA",
+    "BackOffice"
+  ],
+  "claims_supported": [
+    "aud",
+    "exp",
+    "iat",
+    "iss",
+    "sub"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "device_authorization_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "claims_parameter_supported": false,
+  "request_parameter_supported": false,
+  "request_uri_parameter_supported": false,
+  "authorization_response_iss_parameter_supported": true
+}.
+2024-06-07 11:56:26.525 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessJsonResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:26.526 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext was marked as handled by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessJsonResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:26.527 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ApplyConfigurationResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 11:56:26.529 +01:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was marked as handled by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ApplyConfigurationResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext, OpenIddict.Server, Version=5.2.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2024-06-07 14:52:42.696 +01:00 [INF] Seeding database...
+2024-06-07 14:52:42.737 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 14:52:43.453 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 14:52:43.456 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 14:52:43.456 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 14:52:43.456 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:15:53.799 +01:00 [INF] Seeding database...
+2024-06-07 15:15:53.829 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 15:15:54.553 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:15:54.556 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:15:54.556 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:15:54.556 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:20:48.844 +01:00 [INF] Seeding database...
+2024-06-07 15:20:48.872 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 15:20:49.440 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:20:49.442 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:20:49.442 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:20:49.442 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:38:30.975 +01:00 [INF] Seeding database...
+2024-06-07 15:38:31.005 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 15:38:31.654 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:38:31.657 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:38:31.657 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:38:31.657 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:43:50.744 +01:00 [INF] Seeding database...
+2024-06-07 15:43:50.776 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 15:43:51.347 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:43:51.349 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:43:51.349 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 15:43:51.349 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 16:29:32.090 +01:00 [INF] Seeding database...
+2024-06-07 16:29:32.116 +01:00 [INF] Done seeding database. Exiting.
+2024-06-07 16:29:32.658 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserClaim'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 16:29:32.659 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserLogin'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 16:29:32.659 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserRole'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-06-07 16:29:32.659 +01:00 [WRN] Entity 'ApplicationUser' has a global query filter defined and is the required end of a relationship with the entity 'ApplicationUserToken'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.

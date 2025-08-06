@@ -1,0 +1,119 @@
+﻿@using ACG.MAEC.EConsulatMA.Core.Application.Common.Models;
+@using ACG.MAEC.EConsulatMA.Core.Application.Common.Models.Repatriation
+@using ACG.MAEC.EConsulatMA.Infrastructure;
+@using System.Text;
+@model PdfViewModel<RepatriationRequestDto>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Demande n° 001</h1>
+        <div class="progress-bar">
+            <div class="progress-step completed">Demande enregistrée</div>
+            <div class="progress-step">Demande en cours de traitement</div>
+            <div class="progress-step">Demande validée</div>
+        </div>
+
+        <form>
+            <fieldset>
+                <legend>Informations pompe funèbre</legend>
+                <label for="funeralHomeRef">Identifiant pompe funèbre</label>
+                <input type="text" id="funeralHomeRef" value="@Model.Data.FuneralHomeRef" readonly>
+            </fieldset>
+
+            <fieldset>
+                <legend>Personne en charge de dossier</legend>
+                <label for="personInChargeLastName">Nom</label>
+                <input type="text" id="personInChargeLastName" value="@Model.Data.PersonInCharge.LastName" readonly>
+                
+                <label for="personInChargeFirstName">Prénom</label>
+                <input type="text" id="personInChargeFirstName" value="@Model.Data.PersonInCharge.FirstName" readonly>
+            </fieldset>
+
+            <fieldset>
+                <legend>Coordonnées de la personne à contacter</legend>
+                <label for="contactPersonEmail">Email</label>
+                <input type="email" id="contactPersonEmail" value="@Model.Data.ContactPerson.Email" readonly>
+                
+                <label for="contactPersonTelephone">N° de téléphone</label>
+                <input type="tel" id="contactPersonTelephone" value="@Model.Data.ContactPerson.Telephone" readonly>
+            </fieldset>
+
+            <fieldset>
+                <legend>Informations du défunt</legend>
+                <label for="deceasedName">Nom</label>
+                <input type="text" id="deceasedName" value="@Model.Data.DeceasedInformation.Name" readonly>
+
+                <label for="deceasedFirstName">Prénom</label>
+                <input type="text" id="deceasedFirstName" value="@Model.Data.DeceasedInformation.FirstName" readonly>
+                
+                <label for="deceasedNationality">Nationalité</label>
+                <input type="text" id="deceasedNationality" value="@Model.Data.DeceasedInformation.NationalityId" readonly>
+
+                <label for="deceasedGender">Sexe</label>
+                <input type="text" id="deceasedGender" value="@Model.Data.DeceasedInformation.GenderId" readonly>
+
+                <label for="deceasedDOB">Date de naissance</label>
+                <input type="text" id="deceasedDOB" value="@Model.Data.DeceasedInformation.DateOfBirth.GetValueOrDefault().ToString("yyyy-MM-dd")" readonly>
+
+                <label for="deceasedCNIE">CNIE</label>
+                <input type="text" id="deceasedCNIE" value="@Model.Data.DeceasedInformation.CNIE" readonly>
+
+                <label for="deceasedDOD">Date de décès</label>
+                <input type="text" id="deceasedDOD" value="@Model.Data.DeceasedInformation.DateOfDeath.GetValueOrDefault().ToString("yyyy-MM-dd")" readonly>
+
+                <label for="deceasedDeathCause">Cause de décès</label>
+                <input type="text" id="deceasedDeathCause" value="@Model.Data.DeceasedInformation.DeathCauseId" readonly>
+
+                <label for="deceasedAddressInMorocco">Adresse au Maroc</label>
+                <input type="text" id="deceasedAddressInMorocco" value="@Model.Data.DeceasedInformation.AddressInMorocco" readonly>
+
+                <label for="deceasedBurialPlace">Lieu d'inhumation</label>
+                <input type="text" id="deceasedBurialPlace" value="@Model.Data.DeceasedInformation.BurialPlace" readonly>
+
+                <label for="deceasedPlaceOfBirth">Lieu de naissance</label>
+                <input type="text" id="deceasedPlaceOfBirth" value="@Model.Data.DeceasedInformation.PlaceOfBirth" readonly>
+
+                <label for="deceasedPlaceOfDeath">Lieu de décès</label>
+                <input type="text" id="deceasedPlaceOfDeath" value="@Model.Data.DeceasedInformation.PlaceOfDeath" readonly>
+
+                <label for="deceasedEntryBorderPost">Poste frontière d'entrée</label>
+                <input type="text" id="deceasedEntryBorderPost" value="@Model.Data.DeceasedInformation.EntryBorderPostId" readonly>
+            </fieldset>
+
+            <fieldset>
+                <legend>Coordonnées de la personne à contacter au Maroc</legend>
+                <label for="contactPersonInMoroccoLastName">Nom</label>
+                <input type="text" id="contactPersonInMoroccoLastName" value="@Model.Data.ContactPerson.LastName" readonly>
+                
+                <label for="contactPersonInMoroccoFirstName">Prénom</label>
+                <input type="text" id="contactPersonInMoroccoFirstName" value="@Model.Data.ContactPerson.FirstName" readonly>
+                
+                <label for="contactPersonInMoroccoCity">Ville de résidence</label>
+                <input type="text" id="contactPersonInMoroccoCity" value="@Model.Data.ContactPerson.City" readonly>
+
+                <label for="contactPersonInMoroccoAddress">Adresse</label>
+                <input type="text" id="contactPersonInMoroccoAddress" value="@Model.Data.ContactPerson.Address" readonly>
+
+                <label for="contactPersonInMoroccoPostalCode">Code postal</label>
+                <input type="text" id="contactPersonInMoroccoPostalCode" value="@Model.Data.ContactPerson.PostalCode" readonly>
+
+                <label for="contactPersonInMoroccoEmail">Email</label>
+                <input type="text" id="contactPersonInMoroccoEmail" value="@Model.Data.ContactPerson.Email" readonly>
+
+                <label for="contactPersonInMoroccoTelephone">N° de téléphone</label>
+                <input type="text" id="contactPersonInMoroccoTelephone" value="@Model.Data.ContactPerson.Telephone" readonly>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
